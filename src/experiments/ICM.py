@@ -438,7 +438,7 @@ I think this claim is """
         for i in train:
             i["source"] = "Anthropic/llm_global_opinions"
             i["consistency_key"] = (
-                "A>B" if i["selections"][0] > i["selections"][1] else "B>A"
+                "A>B" if i["option"] == i["options"][0] else "B>A"
             )
             i["prompt"] = template.format(
                 question=i["question"],
@@ -447,7 +447,7 @@ I think this claim is """
                 else "France"
                 if args.country == "FR"
                 else "Germany",
-                option = i['option']
+                option=i["option"],
             )
         args.GROUP_SIZE = 2
 
