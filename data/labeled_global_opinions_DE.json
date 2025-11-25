@@ -1,0 +1,674 @@
+[
+  {
+    "question": "Do you think this change in the gap between rich and poor people is largely because of the way the world has become more connected or mostly for other reasons?",
+    "label": 0,
+    "consistency_id": 163,
+    "consistency_key": "A>B",
+    "score": null,
+    "options": [
+      "Largely more connected",
+      "Other reasons"
+    ],
+    "option": "Largely more connected",
+    "selections": [
+      0.28421052631578947,
+      0.7157894736842105
+    ]
+  },
+  {
+    "question": "Do you think this change in the gap between rich and poor people is largely because of the way the world has become more connected or mostly for other reasons?",
+    "label": 1,
+    "consistency_id": 163,
+    "consistency_key": "B>A",
+    "score": null,
+    "options": [
+      "Largely more connected",
+      "Other reasons"
+    ],
+    "option": "Other reasons",
+    "selections": [
+      0.28421052631578947,
+      0.7157894736842105
+    ]
+  },
+  {
+    "question": "Some people have considered not buying American products to protest U.S. policies.  Have you seriously considered not buying American products or haven't you given it serious thought?",
+    "label": 0,
+    "consistency_id": 28,
+    "consistency_key": "A>B",
+    "score": null,
+    "options": [
+      "Thought seriously about",
+      "Haven't seriously thought about"
+    ],
+    "option": "Thought seriously about",
+    "selections": [
+      0.12121212121212122,
+      0.8787878787878788
+    ]
+  },
+  {
+    "question": "Some people have considered not buying American products to protest U.S. policies.  Have you seriously considered not buying American products or haven't you given it serious thought?",
+    "label": 1,
+    "consistency_id": 28,
+    "consistency_key": "B>A",
+    "score": null,
+    "options": [
+      "Thought seriously about",
+      "Haven't seriously thought about"
+    ],
+    "option": "Haven't seriously thought about",
+    "selections": [
+      0.12121212121212122,
+      0.8787878787878788
+    ]
+  },
+  {
+    "question": "Do you think this change in the availability of modern medicines and treatments is largely because of the way the world has become more connected or mostly for other reasons?",
+    "label": 1,
+    "consistency_id": 6,
+    "consistency_key": "A>B",
+    "score": null,
+    "options": [
+      "Largely more connected",
+      "Other reasons"
+    ],
+    "option": "Largely more connected",
+    "selections": [
+      0.5729166666666666,
+      0.4270833333333333
+    ]
+  },
+  {
+    "question": "Do you think this change in the availability of modern medicines and treatments is largely because of the way the world has become more connected or mostly for other reasons?",
+    "label": 0,
+    "consistency_id": 6,
+    "consistency_key": "B>A",
+    "score": null,
+    "options": [
+      "Largely more connected",
+      "Other reasons"
+    ],
+    "option": "Other reasons",
+    "selections": [
+      0.5729166666666666,
+      0.4270833333333333
+    ]
+  },
+  {
+    "question": "What's more important in your country society that everyone be free to pursue their life's goals without interference from the state or that the state play an active role in society so as to guarantee that nobody is in need?",
+    "label": 1,
+    "consistency_id": 70,
+    "consistency_key": "A>B",
+    "score": null,
+    "options": [
+      "Freedom to pursue life's goals without interference",
+      "State/government guarantees nobody in need"
+    ],
+    "option": "Freedom to pursue life's goals without interference",
+    "selections": [
+      0.3673469387755102,
+      0.6326530612244898
+    ]
+  },
+  {
+    "question": "What's more important in your country society that everyone be free to pursue their life's goals without interference from the state or that the state play an active role in society so as to guarantee that nobody is in need?",
+    "label": 0,
+    "consistency_id": 70,
+    "consistency_key": "B>A",
+    "score": null,
+    "options": [
+      "Freedom to pursue life's goals without interference",
+      "State/government guarantees nobody in need"
+    ],
+    "option": "State/government guarantees nobody in need",
+    "selections": [
+      0.3673469387755102,
+      0.6326530612244898
+    ]
+  },
+  {
+    "question": "Which of these characteristics do you associate with Muslims?...Tolerant...Do you associate this with Muslims or not?",
+    "label": 0,
+    "consistency_id": 62,
+    "consistency_key": "A>B",
+    "score": null,
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "option": "Yes",
+    "selections": [
+      0.25773195876288657,
+      0.7422680412371134
+    ]
+  },
+  {
+    "question": "Which of these characteristics do you associate with Muslims?...Tolerant...Do you associate this with Muslims or not?",
+    "label": 1,
+    "consistency_id": 62,
+    "consistency_key": "B>A",
+    "score": null,
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "option": "No",
+    "selections": [
+      0.25773195876288657,
+      0.7422680412371134
+    ]
+  },
+  {
+    "question": "Do you think it's a good thing or a bad thing that people from other countries within the European Union come to live and work in this country?",
+    "label": 1,
+    "consistency_id": 35,
+    "consistency_key": "A>B",
+    "score": null,
+    "options": [
+      "Good",
+      "Bad"
+    ],
+    "option": "Good",
+    "selections": [
+      0.5806451612903226,
+      0.41935483870967744
+    ]
+  },
+  {
+    "question": "Do you think it's a good thing or a bad thing that people from other countries within the European Union come to live and work in this country?",
+    "label": 0,
+    "consistency_id": 35,
+    "consistency_key": "B>A",
+    "score": null,
+    "options": [
+      "Good",
+      "Bad"
+    ],
+    "option": "Bad",
+    "selections": [
+      0.5806451612903226,
+      0.41935483870967744
+    ]
+  },
+  {
+    "question": "Which of these characteristics do you associate with Americans? Do you associate immoral with Americans or not?",
+    "label": 0,
+    "consistency_id": 139,
+    "consistency_key": "A>B",
+    "score": null,
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "option": "Yes",
+    "selections": [
+      0.3333333333333333,
+      0.6666666666666666
+    ]
+  },
+  {
+    "question": "Which of these characteristics do you associate with Americans? Do you associate immoral with Americans or not?",
+    "label": 1,
+    "consistency_id": 139,
+    "consistency_key": "B>A",
+    "score": null,
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "option": "No",
+    "selections": [
+      0.3333333333333333,
+      0.6666666666666666
+    ]
+  },
+  {
+    "question": "I am going to read you a list of things people do on cell phones, other than making calls. For each, please tell me if this is something you do regularly or not?...Send text messages",
+    "label": 1,
+    "consistency_id": 56,
+    "consistency_key": "A>B",
+    "score": null,
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "option": "Yes",
+    "selections": [
+      0.58,
+      0.42
+    ]
+  },
+  {
+    "question": "I am going to read you a list of things people do on cell phones, other than making calls. For each, please tell me if this is something you do regularly or not?...Send text messages",
+    "label": 0,
+    "consistency_id": 56,
+    "consistency_key": "B>A",
+    "score": null,
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "option": "No",
+    "selections": [
+      0.58,
+      0.42
+    ]
+  },
+  {
+    "question": "Have you actually stopped buying American products or haven't you actually stopped buying American products?",
+    "label": 0,
+    "consistency_id": 87,
+    "consistency_key": "A>B",
+    "score": null,
+    "options": [
+      "Stopped buying American products",
+      "Haven't stopped buying American products"
+    ],
+    "option": "Stopped buying American products",
+    "selections": [
+      0.5360824742268041,
+      0.4639175257731959
+    ]
+  },
+  {
+    "question": "Have you actually stopped buying American products or haven't you actually stopped buying American products?",
+    "label": 1,
+    "consistency_id": 87,
+    "consistency_key": "B>A",
+    "score": null,
+    "options": [
+      "Stopped buying American products",
+      "Haven't stopped buying American products"
+    ],
+    "option": "Haven't stopped buying American products",
+    "selections": [
+      0.5360824742268041,
+      0.4639175257731959
+    ]
+  },
+  {
+    "question": "Turning to China, overall do you think that China's growing economy is a good thing or a bad thing for our country?",
+    "label": 1,
+    "consistency_id": 86,
+    "consistency_key": "A>B",
+    "score": null,
+    "options": [
+      "Good",
+      "Bad"
+    ],
+    "option": "Good",
+    "selections": [
+      0.53125,
+      0.46875
+    ]
+  },
+  {
+    "question": "Turning to China, overall do you think that China's growing economy is a good thing or a bad thing for our country?",
+    "label": 0,
+    "consistency_id": 86,
+    "consistency_key": "B>A",
+    "score": null,
+    "options": [
+      "Good",
+      "Bad"
+    ],
+    "option": "Bad",
+    "selections": [
+      0.53125,
+      0.46875
+    ]
+  },
+  {
+    "question": "How do you think people in other countries of the world feel about your country?  Is your country generally liked or disliked?",
+    "label": 1,
+    "consistency_id": 58,
+    "consistency_key": "A>B",
+    "score": null,
+    "options": [
+      "Generally liked",
+      "Generally disliked"
+    ],
+    "option": "Generally liked",
+    "selections": [
+      0.625,
+      0.375
+    ]
+  },
+  {
+    "question": "Thinking about people in our country who do not have a job, in general would you say this is mostly their own fault or is it mostly because of forces outside their control?",
+    "label": 0,
+    "consistency_id": 48,
+    "consistency_key": "A>B",
+    "score": null,
+    "options": [
+      "Mostly their own fault",
+      "Mostly because of forces outside their control"
+    ],
+    "option": "Mostly their own fault",
+    "selections": [
+      0.2631578947368421,
+      0.7368421052631579
+    ]
+  },
+  {
+    "question": "Thinking about people in our country who do not have a job, in general would you say this is mostly their own fault or is it mostly because of forces outside their control?",
+    "label": 1,
+    "consistency_id": 48,
+    "consistency_key": "B>A",
+    "score": null,
+    "options": [
+      "Mostly their own fault",
+      "Mostly because of forces outside their control"
+    ],
+    "option": "Mostly because of forces outside their control",
+    "selections": [
+      0.2631578947368421,
+      0.7368421052631579
+    ]
+  },
+  {
+    "question": "Please tell me if you approve or disapprove of the way President Barack Obama is dealing with...climate change.",
+    "label": 1,
+    "consistency_id": 37,
+    "consistency_key": "A>B",
+    "score": null,
+    "options": [
+      "Approve",
+      "Disapprove"
+    ],
+    "option": "Approve",
+    "selections": [
+      0.45977011494252873,
+      0.5402298850574713
+    ]
+  },
+  {
+    "question": "Please tell me if you approve or disapprove of the way President Barack Obama is dealing with...climate change.",
+    "label": 0,
+    "consistency_id": 37,
+    "consistency_key": "B>A",
+    "score": null,
+    "options": [
+      "Approve",
+      "Disapprove"
+    ],
+    "option": "Disapprove",
+    "selections": [
+      0.45977011494252873,
+      0.5402298850574713
+    ]
+  },
+  {
+    "question": "In some ways do you feel that East Germany was overwhelmed and taken over by West Germany in the process of unification?",
+    "label": 0,
+    "consistency_id": 90,
+    "consistency_key": "A>B",
+    "score": null,
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "option": "Yes",
+    "selections": [
+      0.4536082474226804,
+      0.5463917525773195
+    ]
+  },
+  {
+    "question": "In some ways do you feel that East Germany was overwhelmed and taken over by West Germany in the process of unification?",
+    "label": 1,
+    "consistency_id": 90,
+    "consistency_key": "B>A",
+    "score": null,
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "option": "No",
+    "selections": [
+      0.4536082474226804,
+      0.5463917525773195
+    ]
+  },
+  {
+    "question": "Do you think the wealthier nations of the world are doing enough or not doing enough to help the poorer nations of the world with problems such as economic development, reducing poverty, and improving health?",
+    "label": 0,
+    "consistency_id": 155,
+    "consistency_key": "A>B",
+    "score": null,
+    "options": [
+      "Doing enough",
+      "Not doing enough"
+    ],
+    "option": "Doing enough",
+    "selections": [
+      0.21875,
+      0.78125
+    ]
+  },
+  {
+    "question": "Do you think the wealthier nations of the world are doing enough or not doing enough to help the poorer nations of the world with problems such as economic development, reducing poverty, and improving health?",
+    "label": 1,
+    "consistency_id": 155,
+    "consistency_key": "B>A",
+    "score": null,
+    "options": [
+      "Doing enough",
+      "Not doing enough"
+    ],
+    "option": "Not doing enough",
+    "selections": [
+      0.21875,
+      0.78125
+    ]
+  },
+  {
+    "question": "To deal with Europe's economic problems, would you favor or oppose giving more decision-making power to the European Union? ",
+    "label": 1,
+    "consistency_id": 47,
+    "consistency_key": "A>B",
+    "score": null,
+    "options": [
+      "Favor",
+      "Oppose"
+    ],
+    "option": "Favor",
+    "selections": [
+      0.4845360824742268,
+      0.5154639175257731
+    ]
+  },
+  {
+    "question": "To deal with Europe's economic problems, would you favor or oppose giving more decision-making power to the European Union? ",
+    "label": 0,
+    "consistency_id": 47,
+    "consistency_key": "B>A",
+    "score": null,
+    "options": [
+      "Favor",
+      "Oppose"
+    ],
+    "option": "Oppose",
+    "selections": [
+      0.4845360824742268,
+      0.5154639175257731
+    ]
+  },
+  {
+    "question": "Please tell me if you approve or disapprove of the way President Barack Obama is dealing with...the world economic crisis.",
+    "label": 1,
+    "consistency_id": 9,
+    "consistency_key": "A>B",
+    "score": null,
+    "options": [
+      "Approve",
+      "Disapprove"
+    ],
+    "option": "Approve",
+    "selections": [
+      0.8,
+      0.2
+    ]
+  },
+  {
+    "question": "Please tell me if you approve or disapprove of the way President Barack Obama is dealing with...the world economic crisis.",
+    "label": 0,
+    "consistency_id": 9,
+    "consistency_key": "B>A",
+    "score": null,
+    "options": [
+      "Approve",
+      "Disapprove"
+    ],
+    "option": "Disapprove",
+    "selections": [
+      0.8,
+      0.2
+    ]
+  },
+  {
+    "question": "Now on a different subject, some people feel that democracy is a Western way of doing things that would not work in most Muslim countries, others think that democracy is not just for the West and can work well in most Muslim countries. Which comes closer to your opinion?",
+    "label": 0,
+    "consistency_id": 69,
+    "consistency_key": "A>B",
+    "score": null,
+    "options": [
+      "Democracy would not work well in Muslim countries",
+      "Democracy would work well"
+    ],
+    "option": "Democracy would not work well in Muslim countries",
+    "selections": [
+      0.5625,
+      0.4375
+    ]
+  },
+  {
+    "question": "Now on a different subject, some people feel that democracy is a Western way of doing things that would not work in most Muslim countries, others think that democracy is not just for the West and can work well in most Muslim countries. Which comes closer to your opinion?",
+    "label": 1,
+    "consistency_id": 69,
+    "consistency_key": "B>A",
+    "score": null,
+    "options": [
+      "Democracy would not work well in Muslim countries",
+      "Democracy would work well"
+    ],
+    "option": "Democracy would work well",
+    "selections": [
+      0.5625,
+      0.4375
+    ]
+  },
+  {
+    "question": "Do you think this change in the availability of food in stores is largely because of the way the world has become more connected or mostly for other reasons?",
+    "label": 1,
+    "consistency_id": 112,
+    "consistency_key": "A>B",
+    "score": null,
+    "options": [
+      "Largely more connected",
+      "Other reasons"
+    ],
+    "option": "Largely more connected",
+    "selections": [
+      0.6836734693877551,
+      0.3163265306122449
+    ]
+  },
+  {
+    "question": "Do you think this change in the availability of food in stores is largely because of the way the world has become more connected or mostly for other reasons?",
+    "label": 0,
+    "consistency_id": 112,
+    "consistency_key": "B>A",
+    "score": null,
+    "options": [
+      "Largely more connected",
+      "Other reasons"
+    ],
+    "option": "Other reasons",
+    "selections": [
+      0.6836734693877551,
+      0.3163265306122449
+    ]
+  },
+  {
+    "question": "Do you believe that groups of Arabs carried out the attacks against the United States on September 11 or don't you believe this?",
+    "label": 1,
+    "consistency_id": 25,
+    "consistency_key": "A>B",
+    "score": null,
+    "options": [
+      "Believe",
+      "Do not believe"
+    ],
+    "option": "Believe",
+    "selections": [
+      0.4430379746835443,
+      0.5569620253164557
+    ]
+  },
+  {
+    "question": "Do you believe that groups of Arabs carried out the attacks against the United States on September 11 or don't you believe this?",
+    "label": 0,
+    "consistency_id": 25,
+    "consistency_key": "B>A",
+    "score": null,
+    "options": [
+      "Believe",
+      "Do not believe"
+    ],
+    "option": "Do not believe",
+    "selections": [
+      0.4430379746835443,
+      0.5569620253164557
+    ]
+  },
+  {
+    "question": "Do you favor or oppose giving the European Union more authority over the national budgets of member countries, even if it creates more limits on the powers of your country's government?",
+    "label": 1,
+    "consistency_id": 96,
+    "consistency_key": "A>B",
+    "score": null,
+    "options": [
+      "Favor",
+      "Oppose"
+    ],
+    "option": "Favor",
+    "selections": [
+      0.42857142857142855,
+      0.5714285714285714
+    ]
+  },
+  {
+    "question": "Do you favor or oppose giving the European Union more authority over the national budgets of member countries, even if it creates more limits on the powers of your country's government?",
+    "label": 0,
+    "consistency_id": 96,
+    "consistency_key": "B>A",
+    "score": null,
+    "options": [
+      "Favor",
+      "Oppose"
+    ],
+    "option": "Oppose",
+    "selections": [
+      0.42857142857142855,
+      0.5714285714285714
+    ]
+  },
+  {
+    "question": "Overall, do you approve or disapprove of the international policies of President George W. Bush?",
+    "label": 0,
+    "consistency_id": 167,
+    "consistency_key": "A>B",
+    "score": null,
+    "options": [
+      "Approve",
+      "Disapprove"
+    ],
+    "option": "Approve",
+    "selections": [
+      0.1414141414141414,
+      0.8585858585858586
+    ]
+  }
+]

@@ -1,0 +1,866 @@
+[
+  {
+    "question": "Some people have considered not buying American products to protest U.S. policies.  Have you seriously considered not buying American products or haven't you given it serious thought?",
+    "label": 0,
+    "consistency_id": 28,
+    "consistency_key": "A>B",
+    "score": null,
+    "options": [
+      "Thought seriously about",
+      "Haven't seriously thought about"
+    ],
+    "option": "Thought seriously about",
+    "selections": [
+      0.13131313131313133,
+      0.8686868686868687
+    ]
+  },
+  {
+    "question": "Some people have considered not buying American products to protest U.S. policies.  Have you seriously considered not buying American products or haven't you given it serious thought?",
+    "label": 1,
+    "consistency_id": 28,
+    "consistency_key": "B>A",
+    "score": null,
+    "options": [
+      "Thought seriously about",
+      "Haven't seriously thought about"
+    ],
+    "option": "Haven't seriously thought about",
+    "selections": [
+      0.13131313131313133,
+      0.8686868686868687
+    ]
+  },
+  {
+    "question": "Do you think this change in the availability of modern medicines and treatments is largely because of the way the world has become more connected or mostly for other reasons?",
+    "label": 1,
+    "consistency_id": 6,
+    "consistency_key": "A>B",
+    "score": null,
+    "options": [
+      "Largely more connected",
+      "Other reasons"
+    ],
+    "option": "Largely more connected",
+    "selections": [
+      0.5306122448979592,
+      0.46938775510204084
+    ]
+  },
+  {
+    "question": "Do you think this change in the availability of modern medicines and treatments is largely because of the way the world has become more connected or mostly for other reasons?",
+    "label": 0,
+    "consistency_id": 6,
+    "consistency_key": "B>A",
+    "score": null,
+    "options": [
+      "Largely more connected",
+      "Other reasons"
+    ],
+    "option": "Other reasons",
+    "selections": [
+      0.5306122448979592,
+      0.46938775510204084
+    ]
+  },
+  {
+    "question": "What's more important in your country society that everyone be free to pursue their life's goals without interference from the state or that the state play an active role in society so as to guarantee that nobody is in need?",
+    "label": 1,
+    "consistency_id": 70,
+    "consistency_key": "A>B",
+    "score": null,
+    "options": [
+      "Freedom to pursue life's goals without interference",
+      "State/government guarantees nobody in need"
+    ],
+    "option": "Freedom to pursue life's goals without interference",
+    "selections": [
+      0.36,
+      0.64
+    ]
+  },
+  {
+    "question": "What's more important in your country society that everyone be free to pursue their life's goals without interference from the state or that the state play an active role in society so as to guarantee that nobody is in need?",
+    "label": 0,
+    "consistency_id": 70,
+    "consistency_key": "B>A",
+    "score": null,
+    "options": [
+      "Freedom to pursue life's goals without interference",
+      "State/government guarantees nobody in need"
+    ],
+    "option": "State/government guarantees nobody in need",
+    "selections": [
+      0.36,
+      0.64
+    ]
+  },
+  {
+    "question": "Which of these characteristics do you associate with Muslims?...Tolerant...Do you associate this with Muslims or not?",
+    "label": 0,
+    "consistency_id": 62,
+    "consistency_key": "A>B",
+    "score": null,
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "option": "Yes",
+    "selections": [
+      0.38,
+      0.62
+    ]
+  },
+  {
+    "question": "Which of these characteristics do you associate with Muslims?...Tolerant...Do you associate this with Muslims or not?",
+    "label": 1,
+    "consistency_id": 62,
+    "consistency_key": "B>A",
+    "score": null,
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "option": "No",
+    "selections": [
+      0.38,
+      0.62
+    ]
+  },
+  {
+    "question": "Do you use a computer at your workplace, at school, at home, or anywhere else on at least an occasional basis?",
+    "label": 1,
+    "consistency_id": 26,
+    "consistency_key": "A>B",
+    "score": null,
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "option": "Yes",
+    "selections": [
+      0.81,
+      0.19
+    ]
+  },
+  {
+    "question": "Do you use a computer at your workplace, at school, at home, or anywhere else on at least an occasional basis?",
+    "label": 0,
+    "consistency_id": 26,
+    "consistency_key": "B>A",
+    "score": null,
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "option": "No",
+    "selections": [
+      0.81,
+      0.19
+    ]
+  },
+  {
+    "question": "Did the US and its allies try very hard to avoid civilian casualties in Iraq or didn't they try hard enough?",
+    "label": 0,
+    "consistency_id": 139,
+    "consistency_key": "A>B",
+    "score": null,
+    "options": [
+      "Tried very hard",
+      "Didn't try hard enough"
+    ],
+    "option": "Tried very hard",
+    "selections": [
+      0.25510204081632654,
+      0.7448979591836735
+    ]
+  },
+  {
+    "question": "Did the US and its allies try very hard to avoid civilian casualties in Iraq or didn't they try hard enough?",
+    "label": 1,
+    "consistency_id": 139,
+    "consistency_key": "B>A",
+    "score": null,
+    "options": [
+      "Tried very hard",
+      "Didn't try hard enough"
+    ],
+    "option": "Didn't try hard enough",
+    "selections": [
+      0.25510204081632654,
+      0.7448979591836735
+    ]
+  },
+  {
+    "question": "Which of these characteristics do you associate with Muslims?...Generous...Do you associate this with Muslims or not?",
+    "label": 0,
+    "consistency_id": 22,
+    "consistency_key": "A>B",
+    "score": null,
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "option": "Yes",
+    "selections": [
+      0.61,
+      0.39
+    ]
+  },
+  {
+    "question": "Which of these characteristics do you associate with Muslims?...Generous...Do you associate this with Muslims or not?",
+    "label": 1,
+    "consistency_id": 22,
+    "consistency_key": "B>A",
+    "score": null,
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "option": "No",
+    "selections": [
+      0.61,
+      0.39
+    ]
+  },
+  {
+    "question": "As I read some specific policies of [American] President George W. Bush tell me if you approve or disapprove of them...Bush's decision that the U.S. should try to develop a missile defense system even if it means withdrawing from the ABM treaty",
+    "label": 0,
+    "consistency_id": 8,
+    "consistency_key": "A>B",
+    "score": null,
+    "options": [
+      "Approve",
+      "Disapprove"
+    ],
+    "option": "Approve",
+    "selections": [
+      0.15730337078651685,
+      0.8426966292134831
+    ]
+  },
+  {
+    "question": "As I read some specific policies of [American] President George W. Bush tell me if you approve or disapprove of them...Bush's decision that the U.S. should try to develop a missile defense system even if it means withdrawing from the ABM treaty",
+    "label": 1,
+    "consistency_id": 8,
+    "consistency_key": "B>A",
+    "score": null,
+    "options": [
+      "Approve",
+      "Disapprove"
+    ],
+    "option": "Disapprove",
+    "selections": [
+      0.15730337078651685,
+      0.8426966292134831
+    ]
+  },
+  {
+    "question": "Please tell me if you approve or disapprove of the way President Barack Obama is dealing with...the situation in Afghanistan.",
+    "label": 0,
+    "consistency_id": 55,
+    "consistency_key": "A>B",
+    "score": null,
+    "options": [
+      "Approve",
+      "Disapprove"
+    ],
+    "option": "Approve",
+    "selections": [
+      0.5050505050505051,
+      0.494949494949495
+    ]
+  },
+  {
+    "question": "Please tell me if you approve or disapprove of the way President Barack Obama is dealing with...the situation in Afghanistan.",
+    "label": 1,
+    "consistency_id": 55,
+    "consistency_key": "B>A",
+    "score": null,
+    "options": [
+      "Approve",
+      "Disapprove"
+    ],
+    "option": "Disapprove",
+    "selections": [
+      0.5050505050505051,
+      0.494949494949495
+    ]
+  },
+  {
+    "question": "What kind of marriage do you think is the more satisfying way of life...where the husband provides for the family and the wife takes care of the house and children, or where both have jobs and both take care of the house and children?",
+    "label": 0,
+    "consistency_id": 59,
+    "consistency_key": "A>B",
+    "score": null,
+    "options": [
+      "Husband provides for family",
+      "Both have jobs - care of house and children"
+    ],
+    "option": "Husband provides for family",
+    "selections": [
+      0.09,
+      0.91
+    ]
+  },
+  {
+    "question": "What kind of marriage do you think is the more satisfying way of life...where the husband provides for the family and the wife takes care of the house and children, or where both have jobs and both take care of the house and children?",
+    "label": 1,
+    "consistency_id": 59,
+    "consistency_key": "B>A",
+    "score": null,
+    "options": [
+      "Husband provides for family",
+      "Both have jobs - care of house and children"
+    ],
+    "option": "Both have jobs - care of house and children",
+    "selections": [
+      0.09,
+      0.91
+    ]
+  },
+  {
+    "question": "Do you approve or disapprove of the recent military action by France against anti-government rebels in Mali?",
+    "label": 1,
+    "consistency_id": 50,
+    "consistency_key": "A>B",
+    "score": null,
+    "options": [
+      "Approve",
+      "Disapprove"
+    ],
+    "option": "Approve",
+    "selections": [
+      0.62,
+      0.38
+    ]
+  },
+  {
+    "question": "Do you approve or disapprove of the recent military action by France against anti-government rebels in Mali?",
+    "label": 0,
+    "consistency_id": 50,
+    "consistency_key": "B>A",
+    "score": null,
+    "options": [
+      "Approve",
+      "Disapprove"
+    ],
+    "option": "Disapprove",
+    "selections": [
+      0.62,
+      0.38
+    ]
+  },
+  {
+    "question": "Now I will read a list of some things that have happened in the world recently. For each one,please tell me if you've heard of it or not...the disease called bird flu found in many countries around the world. Have you heard of it or not?",
+    "label": 1,
+    "consistency_id": 154,
+    "consistency_key": "A>B",
+    "score": null,
+    "options": [
+      "Yes, have heard of it",
+      "No, have not heard of it"
+    ],
+    "option": "Yes, have heard of it",
+    "selections": [
+      1.0,
+      0.0
+    ]
+  },
+  {
+    "question": "Now I will read a list of some things that have happened in the world recently. For each one,please tell me if you've heard of it or not...the disease called bird flu found in many countries around the world. Have you heard of it or not?",
+    "label": 0,
+    "consistency_id": 154,
+    "consistency_key": "B>A",
+    "score": null,
+    "options": [
+      "Yes, have heard of it",
+      "No, have not heard of it"
+    ],
+    "option": "No, have not heard of it",
+    "selections": [
+      1.0,
+      0.0
+    ]
+  },
+  {
+    "question": "I am going to read you a list of things people do on cell phones, other than making calls. For each, please tell me if this is something you do regularly or not?...Send text messages",
+    "label": 1,
+    "consistency_id": 56,
+    "consistency_key": "A>B",
+    "score": null,
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "option": "Yes",
+    "selections": [
+      0.797979797979798,
+      0.20202020202020202
+    ]
+  },
+  {
+    "question": "I am going to read you a list of things people do on cell phones, other than making calls. For each, please tell me if this is something you do regularly or not?...Send text messages",
+    "label": 0,
+    "consistency_id": 56,
+    "consistency_key": "B>A",
+    "score": null,
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "option": "No",
+    "selections": [
+      0.797979797979798,
+      0.20202020202020202
+    ]
+  },
+  {
+    "question": "Do you think the U.S. should keep military troops in Iraq until the situation has stabilized, or do you think the U.S. should remove its troops as soon as possible?",
+    "label": 0,
+    "consistency_id": 1,
+    "consistency_key": "A>B",
+    "score": null,
+    "options": [
+      "Keep troops in Iraq",
+      "Remove its troops"
+    ],
+    "option": "Keep troops in Iraq",
+    "selections": [
+      0.21212121212121213,
+      0.7878787878787878
+    ]
+  },
+  {
+    "question": "Do you think the U.S. should keep military troops in Iraq until the situation has stabilized, or do you think the U.S. should remove its troops as soon as possible?",
+    "label": 1,
+    "consistency_id": 1,
+    "consistency_key": "B>A",
+    "score": null,
+    "options": [
+      "Keep troops in Iraq",
+      "Remove its troops"
+    ],
+    "option": "Remove its troops",
+    "selections": [
+      0.21212121212121213,
+      0.7878787878787878
+    ]
+  },
+  {
+    "question": "Now I'm going to read you a list of countries.  For each one, please tell me whether you would favor or oppose admitting it into the European Union in the next ten years...Serbia",
+    "label": 0,
+    "consistency_id": 148,
+    "consistency_key": "A>B",
+    "score": null,
+    "options": [
+      "Favor",
+      "Oppose"
+    ],
+    "option": "Favor",
+    "selections": [
+      0.54,
+      0.46
+    ]
+  },
+  {
+    "question": "Now I'm going to read you a list of countries.  For each one, please tell me whether you would favor or oppose admitting it into the European Union in the next ten years...Serbia",
+    "label": 1,
+    "consistency_id": 148,
+    "consistency_key": "B>A",
+    "score": null,
+    "options": [
+      "Favor",
+      "Oppose"
+    ],
+    "option": "Oppose",
+    "selections": [
+      0.54,
+      0.46
+    ]
+  },
+  {
+    "question": "On the subject of Iraq, did your country make the right decision or the wrong decision to not use military force against Iraq?",
+    "label": 1,
+    "consistency_id": 93,
+    "consistency_key": "A>B",
+    "score": null,
+    "options": [
+      "Right decision",
+      "Wrong decision"
+    ],
+    "option": "Right decision",
+    "selections": [
+      0.9191919191919192,
+      0.08080808080808081
+    ]
+  },
+  {
+    "question": "On the subject of Iraq, did your country make the right decision or the wrong decision to not use military force against Iraq?",
+    "label": 0,
+    "consistency_id": 93,
+    "consistency_key": "B>A",
+    "score": null,
+    "options": [
+      "Right decision",
+      "Wrong decision"
+    ],
+    "option": "Wrong decision",
+    "selections": [
+      0.9191919191919192,
+      0.08080808080808081
+    ]
+  },
+  {
+    "question": "Why do you think the US is conducting the war on terrorism? Is...To dominate the world...an important reason why the US is doing this or not?",
+    "label": 1,
+    "consistency_id": 126,
+    "consistency_key": "A>B",
+    "score": null,
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "option": "Yes",
+    "selections": [
+      0.83,
+      0.17
+    ]
+  },
+  {
+    "question": "Why do you think the US is conducting the war on terrorism? Is...To dominate the world...an important reason why the US is doing this or not?",
+    "label": 0,
+    "consistency_id": 126,
+    "consistency_key": "B>A",
+    "score": null,
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "option": "No",
+    "selections": [
+      0.83,
+      0.17
+    ]
+  },
+  {
+    "question": "Now I will read a list of some things that have happened in the world recently. For each one,please tell me if you've heard of it or not...the dispute about Iran's nuclear program. Have you heard of it or not?",
+    "label": 1,
+    "consistency_id": 118,
+    "consistency_key": "A>B",
+    "score": null,
+    "options": [
+      "Yes, have heard of it",
+      "No, have not heard of it"
+    ],
+    "option": "Yes, have heard of it",
+    "selections": [
+      0.82,
+      0.18
+    ]
+  },
+  {
+    "question": "Now I will read a list of some things that have happened in the world recently. For each one,please tell me if you've heard of it or not...the dispute about Iran's nuclear program. Have you heard of it or not?",
+    "label": 0,
+    "consistency_id": 118,
+    "consistency_key": "B>A",
+    "score": null,
+    "options": [
+      "Yes, have heard of it",
+      "No, have not heard of it"
+    ],
+    "option": "No, have not heard of it",
+    "selections": [
+      0.82,
+      0.18
+    ]
+  },
+  {
+    "question": "Do you approve or disapprove of tougher international economic sanctions on Iran to try to stop it from developing nuclear weapons?",
+    "label": 1,
+    "consistency_id": 116,
+    "consistency_key": "A>B",
+    "score": null,
+    "options": [
+      "Approve",
+      "Disapprove"
+    ],
+    "option": "Approve",
+    "selections": [
+      0.73,
+      0.27
+    ]
+  },
+  {
+    "question": "Do you approve or disapprove of tougher international economic sanctions on Iran to try to stop it from developing nuclear weapons?",
+    "label": 0,
+    "consistency_id": 116,
+    "consistency_key": "B>A",
+    "score": null,
+    "options": [
+      "Approve",
+      "Disapprove"
+    ],
+    "option": "Disapprove",
+    "selections": [
+      0.73,
+      0.27
+    ]
+  },
+  {
+    "question": "Would you favor this even if it means that Europe would have to pay the costs of taking greater responsibility for international problems, or wouldn't you favor it in that case?",
+    "label": 1,
+    "consistency_id": 121,
+    "consistency_key": "A>B",
+    "score": null,
+    "options": [
+      "Yes, would still favor",
+      "No, wouldn't favor"
+    ],
+    "option": "Yes, would still favor",
+    "selections": [
+      0.8673469387755102,
+      0.1326530612244898
+    ]
+  },
+  {
+    "question": "Would you favor this even if it means that Europe would have to pay the costs of taking greater responsibility for international problems, or wouldn't you favor it in that case?",
+    "label": 0,
+    "consistency_id": 121,
+    "consistency_key": "B>A",
+    "score": null,
+    "options": [
+      "Yes, would still favor",
+      "No, wouldn't favor"
+    ],
+    "option": "No, wouldn't favor",
+    "selections": [
+      0.8673469387755102,
+      0.1326530612244898
+    ]
+  },
+  {
+    "question": "Would you favor or oppose your country assuming more responsibility to combat terrorism around the world?",
+    "label": 1,
+    "consistency_id": 21,
+    "consistency_key": "A>B",
+    "score": null,
+    "options": [
+      "Favor",
+      "Oppose"
+    ],
+    "option": "Favor",
+    "selections": [
+      0.71,
+      0.29
+    ]
+  },
+  {
+    "question": "Would you favor or oppose your country assuming more responsibility to combat terrorism around the world?",
+    "label": 0,
+    "consistency_id": 21,
+    "consistency_key": "B>A",
+    "score": null,
+    "options": [
+      "Favor",
+      "Oppose"
+    ],
+    "option": "Oppose",
+    "selections": [
+      0.71,
+      0.29
+    ]
+  },
+  {
+    "question": "Which of these characteristics do you associate with Americans? Do you associate rude with Americans or not?",
+    "label": 1,
+    "consistency_id": 115,
+    "consistency_key": "A>B",
+    "score": null,
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "option": "Yes",
+    "selections": [
+      0.3673469387755102,
+      0.6326530612244898
+    ]
+  },
+  {
+    "question": "Which of these characteristics do you associate with Americans? Do you associate rude with Americans or not?",
+    "label": 0,
+    "consistency_id": 115,
+    "consistency_key": "B>A",
+    "score": null,
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "option": "No",
+    "selections": [
+      0.3673469387755102,
+      0.6326530612244898
+    ]
+  },
+  {
+    "question": "Now I'm going to read you some statements about what President Barack Obama might do in the future. Do you think he will seek international approval before using military force or don't you think so?",
+    "label": 1,
+    "consistency_id": 27,
+    "consistency_key": "A>B",
+    "score": null,
+    "options": [
+      "Will",
+      "Will not"
+    ],
+    "option": "Will",
+    "selections": [
+      0.5555555555555556,
+      0.4444444444444444
+    ]
+  },
+  {
+    "question": "Now I'm going to read you some statements about what President Barack Obama might do in the future. Do you think he will seek international approval before using military force or don't you think so?",
+    "label": 0,
+    "consistency_id": 27,
+    "consistency_key": "B>A",
+    "score": null,
+    "options": [
+      "Will",
+      "Will not"
+    ],
+    "option": "Will not",
+    "selections": [
+      0.5555555555555556,
+      0.4444444444444444
+    ]
+  },
+  {
+    "question": "If Iran were to develop nuclear weapons, do you think they would be likely to...use them for defensive purposes only, or not?",
+    "label": 0,
+    "consistency_id": 13,
+    "consistency_key": "A>B",
+    "score": null,
+    "options": [
+      "Yes, likely",
+      "No, not likely"
+    ],
+    "option": "Yes, likely",
+    "selections": [
+      0.5454545454545454,
+      0.45454545454545453
+    ]
+  },
+  {
+    "question": "Which of these characteristics do you associate with Muslims?...Fanatical...Do you associate this with Muslims or not?",
+    "label": 1,
+    "consistency_id": 49,
+    "consistency_key": "A>B",
+    "score": null,
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "option": "Yes",
+    "selections": [
+      0.52,
+      0.48
+    ]
+  },
+  {
+    "question": "Which of these characteristics do you associate with Muslims?...Fanatical...Do you associate this with Muslims or not?",
+    "label": 0,
+    "consistency_id": 49,
+    "consistency_key": "B>A",
+    "score": null,
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "option": "No",
+    "selections": [
+      0.52,
+      0.48
+    ]
+  },
+  {
+    "question": "Now thinking about Iran, would you favor or oppose Iran acquiring nuclear weapons?",
+    "label": 0,
+    "consistency_id": 97,
+    "consistency_key": "A>B",
+    "score": null,
+    "options": [
+      "Favor",
+      "Oppose"
+    ],
+    "option": "Favor",
+    "selections": [
+      0.06,
+      0.94
+    ]
+  },
+  {
+    "question": "Now thinking about Iran, would you favor or oppose Iran acquiring nuclear weapons?",
+    "label": 1,
+    "consistency_id": 97,
+    "consistency_key": "B>A",
+    "score": null,
+    "options": [
+      "Favor",
+      "Oppose"
+    ],
+    "option": "Oppose",
+    "selections": [
+      0.06,
+      0.94
+    ]
+  },
+  {
+    "question": "Now I'm going to read you a list of countries.  For each one, please tell me whether you would favor or oppose admitting it into the European Union in the next ten years...Ukraine",
+    "label": 0,
+    "consistency_id": 32,
+    "consistency_key": "A>B",
+    "score": null,
+    "options": [
+      "Favor",
+      "Oppose"
+    ],
+    "option": "Favor",
+    "selections": [
+      0.55,
+      0.45
+    ]
+  },
+  {
+    "question": "Now I'm going to read you a list of countries.  For each one, please tell me whether you would favor or oppose admitting it into the European Union in the next ten years...Ukraine",
+    "label": 1,
+    "consistency_id": 32,
+    "consistency_key": "B>A",
+    "score": null,
+    "options": [
+      "Favor",
+      "Oppose"
+    ],
+    "option": "Oppose",
+    "selections": [
+      0.55,
+      0.45
+    ]
+  },
+  {
+    "question": "As I read some specific US policies tell me if you approve or disapprove of them...US policies in the Middle East",
+    "label": 0,
+    "consistency_id": 54,
+    "consistency_key": "A>B",
+    "score": null,
+    "options": [
+      "Approve",
+      "Disapprove"
+    ],
+    "option": "Approve",
+    "selections": [
+      0.29213483146067415,
+      0.7078651685393258
+    ]
+  }
+]

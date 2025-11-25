@@ -1,0 +1,982 @@
+[
+  {
+    "question": "In response to the situation involving Russia and Ukraine, do you support or oppose each of the following actions?...Economic aid to Ukraine provided by Western countries",
+    "selections": [
+      0.7395833333333334,
+      0.2604166666666667
+    ],
+    "options": [
+      "Support",
+      "Oppose"
+    ],
+    "consistency_id": 168,
+    "option": "Support",
+    "label": 1
+  },
+  {
+    "question": "In response to the situation involving Russia and Ukraine, do you support or oppose each of the following actions?...Economic aid to Ukraine provided by Western countries",
+    "selections": [
+      0.7395833333333334,
+      0.2604166666666667
+    ],
+    "options": [
+      "Support",
+      "Oppose"
+    ],
+    "consistency_id": 168,
+    "option": "Oppose",
+    "label": 0
+  },
+  {
+    "question": "Which comes closer to describing your view?...I admire the United States for its technological and scientific advances, OR I do not admire the United States for its technological and scientific advances",
+    "selections": [
+      0.6122448979591837,
+      0.3877551020408163
+    ],
+    "options": [
+      "I admire the US for its technological/ scientific advances",
+      "I do not admire US for its technological/ scientific advances"
+    ],
+    "consistency_id": 169,
+    "option": "I admire the US for its technological/ scientific advances",
+    "label": 1
+  },
+  {
+    "question": "Which comes closer to describing your view?...I admire the United States for its technological and scientific advances, OR I do not admire the United States for its technological and scientific advances",
+    "selections": [
+      0.6122448979591837,
+      0.3877551020408163
+    ],
+    "options": [
+      "I admire the US for its technological/ scientific advances",
+      "I do not admire US for its technological/ scientific advances"
+    ],
+    "consistency_id": 169,
+    "option": "I do not admire US for its technological/ scientific advances",
+    "label": 0
+  },
+  {
+    "question": "Which one of these comes closest to your opinion, number 1 or number 2?...#1 - It is not necessary to believe in God in order to be moral and have good values or #2 - It is necessary to believe in God in order to be moral and have good values",
+    "selections": [
+      0.6666666666666666,
+      0.3333333333333333
+    ],
+    "options": [
+      "Not necessary to believe in God to be moral/have good values",
+      "Necessary to believe in God to be moral/have good values"
+    ],
+    "consistency_id": 170,
+    "option": "Not necessary to believe in God to be moral/have good values",
+    "label": 1
+  },
+  {
+    "question": "Which one of these comes closest to your opinion, number 1 or number 2?...#1 - It is not necessary to believe in God in order to be moral and have good values or #2 - It is necessary to believe in God in order to be moral and have good values",
+    "selections": [
+      0.6666666666666666,
+      0.3333333333333333
+    ],
+    "options": [
+      "Not necessary to believe in God to be moral/have good values",
+      "Necessary to believe in God to be moral/have good values"
+    ],
+    "consistency_id": 170,
+    "option": "Necessary to believe in God to be moral/have good values",
+    "label": 0
+  },
+  {
+    "question": "As I read from a list, tell me whether or not you think this is an important factor in Europe and the U.S. growing further apart?...The growing power of the European Union",
+    "selections": [
+      0.7244897959183674,
+      0.2755102040816326
+    ],
+    "options": [
+      "Important factor in growing apart",
+      "Not important factor in growing apart"
+    ],
+    "consistency_id": 171,
+    "option": "Important factor in growing apart",
+    "label": 1
+  },
+  {
+    "question": "As I read from a list, tell me whether or not you think this is an important factor in Europe and the U.S. growing further apart?...The growing power of the European Union",
+    "selections": [
+      0.7244897959183674,
+      0.2755102040816326
+    ],
+    "options": [
+      "Important factor in growing apart",
+      "Not important factor in growing apart"
+    ],
+    "consistency_id": 171,
+    "option": "Not important factor in growing apart",
+    "label": 0
+  },
+  {
+    "question": "As I read some specific US policies tell me if you approve or disapprove of them...The US decision to try Al Qaeda prisoners before military tribunals rather than in the US civilian courts",
+    "selections": [
+      0.5555555555555556,
+      0.4444444444444444
+    ],
+    "options": [
+      "Approve",
+      "Disapprove"
+    ],
+    "consistency_id": 172,
+    "option": "Approve",
+    "label": 1
+  },
+  {
+    "question": "As I read some specific US policies tell me if you approve or disapprove of them...The US decision to try Al Qaeda prisoners before military tribunals rather than in the US civilian courts",
+    "selections": [
+      0.5555555555555556,
+      0.4444444444444444
+    ],
+    "options": [
+      "Approve",
+      "Disapprove"
+    ],
+    "consistency_id": 172,
+    "option": "Disapprove",
+    "label": 0
+  },
+  {
+    "question": "As I read some specific US policies tell me if you approve or disapprove of them...President Bush's decision to increase US foreign aid to poor countries",
+    "selections": [
+      0.8775510204081632,
+      0.12244897959183673
+    ],
+    "options": [
+      "Approve",
+      "Disapprove"
+    ],
+    "consistency_id": 173,
+    "option": "Approve",
+    "label": 1
+  },
+  {
+    "question": "As I read some specific US policies tell me if you approve or disapprove of them...President Bush's decision to increase US foreign aid to poor countries",
+    "selections": [
+      0.8775510204081632,
+      0.12244897959183673
+    ],
+    "options": [
+      "Approve",
+      "Disapprove"
+    ],
+    "consistency_id": 173,
+    "option": "Disapprove",
+    "label": 0
+  },
+  {
+    "question": "Which of these characteristics do you associate with Muslims?...Arrogant...Do you associate this with Muslims or not?",
+    "selections": [
+      0.36082474226804123,
+      0.6391752577319587
+    ],
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "consistency_id": 174,
+    "option": "Yes",
+    "label": 0
+  },
+  {
+    "question": "Which of these characteristics do you associate with Muslims?...Arrogant...Do you associate this with Muslims or not?",
+    "selections": [
+      0.36082474226804123,
+      0.6391752577319587
+    ],
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "consistency_id": 174,
+    "option": "No",
+    "label": 1
+  },
+  {
+    "question": "Do you approve or disapprove of the way...German Chancellor Angela Merkel...is dealing with U.S.-German relations?",
+    "selections": [
+      0.7717391304347826,
+      0.22826086956521738
+    ],
+    "options": [
+      "Approve",
+      "Disapprove"
+    ],
+    "consistency_id": 175,
+    "option": "Approve",
+    "label": 1
+  },
+  {
+    "question": "Do you approve or disapprove of the way...German Chancellor Angela Merkel...is dealing with U.S.-German relations?",
+    "selections": [
+      0.7717391304347826,
+      0.22826086956521738
+    ],
+    "options": [
+      "Approve",
+      "Disapprove"
+    ],
+    "consistency_id": 175,
+    "option": "Disapprove",
+    "label": 0
+  },
+  {
+    "question": "As I read some specific policies of [American] President George W. Bush tell me if you approve or disapprove of them...Bush's support for the death penalty in the U.S.",
+    "selections": [
+      0.2916666666666667,
+      0.7083333333333334
+    ],
+    "options": [
+      "Approve",
+      "Disapprove"
+    ],
+    "consistency_id": 176,
+    "option": "Approve",
+    "label": 0
+  },
+  {
+    "question": "As I read some specific policies of [American] President George W. Bush tell me if you approve or disapprove of them...Bush's support for the death penalty in the U.S.",
+    "selections": [
+      0.2916666666666667,
+      0.7083333333333334
+    ],
+    "options": [
+      "Approve",
+      "Disapprove"
+    ],
+    "consistency_id": 176,
+    "option": "Disapprove",
+    "label": 1
+  },
+  {
+    "question": "In the next 12 months do you believe that a stable government will be established in Iraq or do you think it will take longer than that?",
+    "selections": [
+      0.06060606060606061,
+      0.9393939393939394
+    ],
+    "options": [
+      "Stable government formed",
+      "Will take longer"
+    ],
+    "consistency_id": 177,
+    "option": "Stable government formed",
+    "label": 0
+  },
+  {
+    "question": "In the next 12 months do you believe that a stable government will be established in Iraq or do you think it will take longer than that?",
+    "selections": [
+      0.06060606060606061,
+      0.9393939393939394
+    ],
+    "options": [
+      "Stable government formed",
+      "Will take longer"
+    ],
+    "consistency_id": 177,
+    "option": "Will take longer",
+    "label": 1
+  },
+  {
+    "question": "Do you support or oppose the U.S. military actions against the Islamic militant group in Iraq and Syria known as ISIS?",
+    "selections": [
+      0.6739130434782609,
+      0.32608695652173914
+    ],
+    "options": [
+      "Support",
+      "Oppose"
+    ],
+    "consistency_id": 178,
+    "option": "Support",
+    "label": 1
+  },
+  {
+    "question": "Do you support or oppose the U.S. military actions against the Islamic militant group in Iraq and Syria known as ISIS?",
+    "selections": [
+      0.6739130434782609,
+      0.32608695652173914
+    ],
+    "options": [
+      "Support",
+      "Oppose"
+    ],
+    "consistency_id": 178,
+    "option": "Oppose",
+    "label": 0
+  },
+  {
+    "question": "Please tell me if you approve or disapprove of the way President Barack Obama is dealing with...Iran.",
+    "selections": [
+      0.5333333333333333,
+      0.4666666666666667
+    ],
+    "options": [
+      "Approve",
+      "Disapprove"
+    ],
+    "consistency_id": 179,
+    "option": "Approve",
+    "label": 1
+  },
+  {
+    "question": "Please tell me if you approve or disapprove of the way President Barack Obama is dealing with...Iran.",
+    "selections": [
+      0.5333333333333333,
+      0.4666666666666667
+    ],
+    "options": [
+      "Approve",
+      "Disapprove"
+    ],
+    "consistency_id": 179,
+    "option": "Disapprove",
+    "label": 0
+  },
+  {
+    "question": "Which comes closer to describing your view?...I favor the US-led efforts to fight terrorism, OR I oppose the US-led efforts to fight terrorism",
+    "selections": [
+      0.631578947368421,
+      0.3684210526315789
+    ],
+    "options": [
+      "I favor the US-led efforts to fight terrorism",
+      "I oppose the US-led efforts to fight terrorism"
+    ],
+    "consistency_id": 180,
+    "option": "I favor the US-led efforts to fight terrorism",
+    "label": 1
+  },
+  {
+    "question": "Which comes closer to describing your view?...I favor the US-led efforts to fight terrorism, OR I oppose the US-led efforts to fight terrorism",
+    "selections": [
+      0.631578947368421,
+      0.3684210526315789
+    ],
+    "options": [
+      "I favor the US-led efforts to fight terrorism",
+      "I oppose the US-led efforts to fight terrorism"
+    ],
+    "consistency_id": 180,
+    "option": "I oppose the US-led efforts to fight terrorism",
+    "label": 0
+  },
+  {
+    "question": "Which comes closer to describing your view?...I like American ways of doing business, OR I dislike American ways of doing business",
+    "selections": [
+      0.2857142857142857,
+      0.7142857142857143
+    ],
+    "options": [
+      "I like American ways of doing business",
+      "I dislike American ways of doing business"
+    ],
+    "consistency_id": 181,
+    "option": "I like American ways of doing business",
+    "label": 0
+  },
+  {
+    "question": "Which comes closer to describing your view?...I like American ways of doing business, OR I dislike American ways of doing business",
+    "selections": [
+      0.2857142857142857,
+      0.7142857142857143
+    ],
+    "options": [
+      "I like American ways of doing business",
+      "I dislike American ways of doing business"
+    ],
+    "consistency_id": 181,
+    "option": "I dislike American ways of doing business",
+    "label": 1
+  },
+  {
+    "question": "If Iraq is disarmed and Saddam Hussein is removed from power by the U.S. and its allies, do you think the Middle East region will be more stable or less stable in the long run than it is now?",
+    "selections": [
+      0.6363636363636364,
+      0.36363636363636365
+    ],
+    "options": [
+      "More stable",
+      "Less stable"
+    ],
+    "consistency_id": 182,
+    "option": "More stable",
+    "label": 1
+  },
+  {
+    "question": "If Iraq is disarmed and Saddam Hussein is removed from power by the U.S. and its allies, do you think the Middle East region will be more stable or less stable in the long run than it is now?",
+    "selections": [
+      0.6363636363636364,
+      0.36363636363636365
+    ],
+    "options": [
+      "More stable",
+      "Less stable"
+    ],
+    "consistency_id": 182,
+    "option": "Less stable",
+    "label": 0
+  },
+  {
+    "question": "Thinking back to past [American] President Bill Clinton, did you approve or disapprove of his international policies?",
+    "selections": [
+      0.9052631578947369,
+      0.09473684210526316
+    ],
+    "options": [
+      "Approve",
+      "Disapprove"
+    ],
+    "consistency_id": 183,
+    "option": "Approve",
+    "label": 1
+  },
+  {
+    "question": "Thinking back to past [American] President Bill Clinton, did you approve or disapprove of his international policies?",
+    "selections": [
+      0.9052631578947369,
+      0.09473684210526316
+    ],
+    "options": [
+      "Approve",
+      "Disapprove"
+    ],
+    "consistency_id": 183,
+    "option": "Disapprove",
+    "label": 0
+  },
+  {
+    "question": "All in all, do you think it is a good idea or a bad idea for the government to more strictly regulate the way large financial companies, such as banks, do business?",
+    "selections": [
+      0.9191919191919192,
+      0.08080808080808081
+    ],
+    "options": [
+      "Good idea",
+      "Bad idea"
+    ],
+    "consistency_id": 184,
+    "option": "Good idea",
+    "label": 1
+  },
+  {
+    "question": "All in all, do you think it is a good idea or a bad idea for the government to more strictly regulate the way large financial companies, such as banks, do business?",
+    "selections": [
+      0.9191919191919192,
+      0.08080808080808081
+    ],
+    "options": [
+      "Good idea",
+      "Bad idea"
+    ],
+    "consistency_id": 184,
+    "option": "Bad idea",
+    "label": 0
+  },
+  {
+    "question": "According to news reports, the American government has been monitoring communications, such as emails and phone calls, in the U.S. and many other countries. In your opinion, is it acceptable or unacceptable for the American government to monitor communications from...your nationality leaders?",
+    "selections": [
+      0.09090909090909091,
+      0.9090909090909091
+    ],
+    "options": [
+      "Acceptable",
+      "Unacceptable"
+    ],
+    "consistency_id": 185,
+    "option": "Acceptable",
+    "label": 0
+  },
+  {
+    "question": "According to news reports, the American government has been monitoring communications, such as emails and phone calls, in the U.S. and many other countries. In your opinion, is it acceptable or unacceptable for the American government to monitor communications from...your nationality leaders?",
+    "selections": [
+      0.09090909090909091,
+      0.9090909090909091
+    ],
+    "options": [
+      "Acceptable",
+      "Unacceptable"
+    ],
+    "consistency_id": 185,
+    "option": "Unacceptable",
+    "label": 1
+  },
+  {
+    "question": "Now I'm going to read you some statements about President Barack Obama.  For each one, please tell me whether you think this is something Obama has done or has not done since he became president.  Do you think he has taken into account the interests of countries like your country when making international policy decisions  or don't you think so?",
+    "selections": [
+      0.4787234042553192,
+      0.5212765957446809
+    ],
+    "options": [
+      "Has",
+      "Has not"
+    ],
+    "consistency_id": 186,
+    "option": "Has",
+    "label": 0
+  },
+  {
+    "question": "Now I'm going to read you some statements about President Barack Obama.  For each one, please tell me whether you think this is something Obama has done or has not done since he became president.  Do you think he has taken into account the interests of countries like your country when making international policy decisions  or don't you think so?",
+    "selections": [
+      0.4787234042553192,
+      0.5212765957446809
+    ],
+    "options": [
+      "Has",
+      "Has not"
+    ],
+    "consistency_id": 186,
+    "option": "Has not",
+    "label": 1
+  },
+  {
+    "question": "Do you think the European Union understands the needs of your nationality citizens?",
+    "selections": [
+      0.4479166666666667,
+      0.5520833333333334
+    ],
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "consistency_id": 187,
+    "option": "Yes",
+    "label": 0
+  },
+  {
+    "question": "Do you think the European Union understands the needs of your nationality citizens?",
+    "selections": [
+      0.4479166666666667,
+      0.5520833333333334
+    ],
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "consistency_id": 187,
+    "option": "No",
+    "label": 1
+  },
+  {
+    "question": "Please tell me if you approve or disapprove of the way President Barack Obama is dealing with\u2026China",
+    "selections": [
+      0.5394736842105263,
+      0.4605263157894737
+    ],
+    "options": [
+      "Approve",
+      "Disapprove"
+    ],
+    "consistency_id": 188,
+    "option": "Approve",
+    "label": 1
+  },
+  {
+    "question": "Please tell me if you approve or disapprove of the way President Barack Obama is dealing with\u2026China",
+    "selections": [
+      0.5394736842105263,
+      0.4605263157894737
+    ],
+    "options": [
+      "Approve",
+      "Disapprove"
+    ],
+    "consistency_id": 188,
+    "option": "Disapprove",
+    "label": 0
+  },
+  {
+    "question": "Which of these characteristics do you associate with Muslims?...Devout...Do you associate this with Muslims or not?",
+    "selections": [
+      0.8673469387755102,
+      0.1326530612244898
+    ],
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "consistency_id": 189,
+    "option": "Yes",
+    "label": 1
+  },
+  {
+    "question": "Which of these characteristics do you associate with Muslims?...Devout...Do you associate this with Muslims or not?",
+    "selections": [
+      0.8673469387755102,
+      0.1326530612244898
+    ],
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "consistency_id": 189,
+    "option": "No",
+    "label": 0
+  },
+  {
+    "question": "Do you think the U.S. and NATO should keep military troops in Afghanistan until the situation has stabilized, or do you think the U.S. and NATO should remove their troops as soon as possible?",
+    "selections": [
+      0.41414141414141414,
+      0.5858585858585859
+    ],
+    "options": [
+      "Keep troops in Afghanistan",
+      "Remove their troops"
+    ],
+    "consistency_id": 190,
+    "option": "Keep troops in Afghanistan",
+    "label": 0
+  },
+  {
+    "question": "Do you think the U.S. and NATO should keep military troops in Afghanistan until the situation has stabilized, or do you think the U.S. and NATO should remove their troops as soon as possible?",
+    "selections": [
+      0.41414141414141414,
+      0.5858585858585859
+    ],
+    "options": [
+      "Keep troops in Afghanistan",
+      "Remove their troops"
+    ],
+    "consistency_id": 190,
+    "option": "Remove their troops",
+    "label": 1
+  },
+  {
+    "question": "Were you happy that the Iraqi military put up so little resistance to the US and its allies, or were you disappointed about that?",
+    "selections": [
+      0.8804347826086957,
+      0.11956521739130435
+    ],
+    "options": [
+      "Happy",
+      "Disappointed"
+    ],
+    "consistency_id": 191,
+    "option": "Happy",
+    "label": 1
+  },
+  {
+    "question": "Were you happy that the Iraqi military put up so little resistance to the US and its allies, or were you disappointed about that?",
+    "selections": [
+      0.8804347826086957,
+      0.11956521739130435
+    ],
+    "options": [
+      "Happy",
+      "Disappointed"
+    ],
+    "consistency_id": 191,
+    "option": "Disappointed",
+    "label": 0
+  },
+  {
+    "question": "As I read some specific policies of President Barack Obama tell me if you approve or disapprove of them...Stimulating the U.S. economy through government spending.",
+    "selections": [
+      0.7956989247311828,
+      0.20430107526881722
+    ],
+    "options": [
+      "Approve",
+      "Disapprove"
+    ],
+    "consistency_id": 192,
+    "option": "Approve",
+    "label": 1
+  },
+  {
+    "question": "As I read some specific policies of President Barack Obama tell me if you approve or disapprove of them...Stimulating the U.S. economy through government spending.",
+    "selections": [
+      0.7956989247311828,
+      0.20430107526881722
+    ],
+    "options": [
+      "Approve",
+      "Disapprove"
+    ],
+    "consistency_id": 192,
+    "option": "Disapprove",
+    "label": 0
+  },
+  {
+    "question": "In your opinion, these days do you think there is a growing sense of Islamic identity among Muslims in our country or don't you think so?",
+    "selections": [
+      0.7659574468085106,
+      0.23404255319148937
+    ],
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "consistency_id": 193,
+    "option": "Yes",
+    "label": 1
+  },
+  {
+    "question": "In your opinion, these days do you think there is a growing sense of Islamic identity among Muslims in our country or don't you think so?",
+    "selections": [
+      0.7659574468085106,
+      0.23404255319148937
+    ],
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "consistency_id": 193,
+    "option": "No",
+    "label": 0
+  },
+  {
+    "question": "As I read some specific policies of President Barack Obama tell me if you approve or disapprove of them...Closing the U.S. military prison in Guantanamo Bay.",
+    "selections": [
+      0.8842105263157894,
+      0.11578947368421053
+    ],
+    "options": [
+      "Approve",
+      "Disapprove"
+    ],
+    "consistency_id": 194,
+    "option": "Approve",
+    "label": 1
+  },
+  {
+    "question": "As I read some specific policies of President Barack Obama tell me if you approve or disapprove of them...Closing the U.S. military prison in Guantanamo Bay.",
+    "selections": [
+      0.8842105263157894,
+      0.11578947368421053
+    ],
+    "options": [
+      "Approve",
+      "Disapprove"
+    ],
+    "consistency_id": 194,
+    "option": "Disapprove",
+    "label": 0
+  },
+  {
+    "question": "As I read some specific policies of President Barack Obama tell me if you approve or disapprove of them...Sending additional troops to Afghanistan.",
+    "selections": [
+      0.3368421052631579,
+      0.6631578947368421
+    ],
+    "options": [
+      "Approve",
+      "Disapprove"
+    ],
+    "consistency_id": 195,
+    "option": "Approve",
+    "label": 0
+  },
+  {
+    "question": "As I read some specific policies of President Barack Obama tell me if you approve or disapprove of them...Sending additional troops to Afghanistan.",
+    "selections": [
+      0.3368421052631579,
+      0.6631578947368421
+    ],
+    "options": [
+      "Approve",
+      "Disapprove"
+    ],
+    "consistency_id": 195,
+    "option": "Disapprove",
+    "label": 1
+  },
+  {
+    "question": "Which of these characteristics do you associate with people in Western countries such as the United States and Europe?...Honest...Do you associate this with people in Western countries or not?",
+    "selections": [
+      0.6292134831460674,
+      0.3707865168539326
+    ],
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "consistency_id": 196,
+    "option": "Yes",
+    "label": 1
+  },
+  {
+    "question": "Which of these characteristics do you associate with people in Western countries such as the United States and Europe?...Honest...Do you associate this with people in Western countries or not?",
+    "selections": [
+      0.6292134831460674,
+      0.3707865168539326
+    ],
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "consistency_id": 196,
+    "option": "No",
+    "label": 0
+  },
+  {
+    "question": "Overall, do you approve or disapprove of the international policies of President Barack Obama?",
+    "selections": [
+      0.9166666666666666,
+      0.08333333333333333
+    ],
+    "options": [
+      "Approve",
+      "Disapprove"
+    ],
+    "consistency_id": 197,
+    "option": "Approve",
+    "label": 1
+  },
+  {
+    "question": "Overall, do you approve or disapprove of the international policies of President Barack Obama?",
+    "selections": [
+      0.9166666666666666,
+      0.08333333333333333
+    ],
+    "options": [
+      "Approve",
+      "Disapprove"
+    ],
+    "consistency_id": 197,
+    "option": "Disapprove",
+    "label": 0
+  },
+  {
+    "question": "Do you think it's a good thing or a bad thing that people from East European countries come to live and work in this country?",
+    "selections": [
+      0.3695652173913043,
+      0.6304347826086957
+    ],
+    "options": [
+      "Good",
+      "Bad"
+    ],
+    "consistency_id": 198,
+    "option": "Good",
+    "label": 0
+  },
+  {
+    "question": "Do you think it's a good thing or a bad thing that people from East European countries come to live and work in this country?",
+    "selections": [
+      0.3695652173913043,
+      0.6304347826086957
+    ],
+    "options": [
+      "Good",
+      "Bad"
+    ],
+    "consistency_id": 198,
+    "option": "Bad",
+    "label": 1
+  },
+  {
+    "question": "Do you think the government of Iran respects the personal freedoms of its people, or don't you think so?",
+    "selections": [
+      0.031914893617021274,
+      0.9680851063829787
+    ],
+    "options": [
+      "Yes, respects personal freedoms",
+      "No, does not respect personal freedoms"
+    ],
+    "consistency_id": 199,
+    "option": "Yes, respects personal freedoms",
+    "label": 0
+  },
+  {
+    "question": "Do you think the government of Iran respects the personal freedoms of its people, or don't you think so?",
+    "selections": [
+      0.031914893617021274,
+      0.9680851063829787
+    ],
+    "options": [
+      "Yes, respects personal freedoms",
+      "No, does not respect personal freedoms"
+    ],
+    "consistency_id": 199,
+    "option": "No, does not respect personal freedoms",
+    "label": 1
+  },
+  {
+    "question": "Now I'm going to read you some statements about President Barack Obama.  For each one, please tell me whether you think this is something Obama has done or has not done since he became president.  Do you think he has gotten the United States to take significant measures to control global climate change or don't you think so?",
+    "selections": [
+      0.23958333333333334,
+      0.7604166666666666
+    ],
+    "options": [
+      "Has",
+      "Has not"
+    ],
+    "consistency_id": 200,
+    "option": "Has",
+    "label": 0
+  },
+  {
+    "question": "Now I'm going to read you some statements about President Barack Obama.  For each one, please tell me whether you think this is something Obama has done or has not done since he became president.  Do you think he has gotten the United States to take significant measures to control global climate change or don't you think so?",
+    "selections": [
+      0.23958333333333334,
+      0.7604166666666666
+    ],
+    "options": [
+      "Has",
+      "Has not"
+    ],
+    "consistency_id": 200,
+    "option": "Has not",
+    "label": 1
+  },
+  {
+    "question": "Have you heard of the disease called swine flu found in many countries around the world, or haven't you heard of this?",
+    "selections": [
+      0.98,
+      0.02
+    ],
+    "options": [
+      "Have heard",
+      "Have not heard"
+    ],
+    "consistency_id": 201,
+    "option": "Have heard",
+    "label": 1
+  },
+  {
+    "question": "Have you heard of the disease called swine flu found in many countries around the world, or haven't you heard of this?",
+    "selections": [
+      0.98,
+      0.02
+    ],
+    "options": [
+      "Have heard",
+      "Have not heard"
+    ],
+    "consistency_id": 201,
+    "option": "Have not heard",
+    "label": 0
+  },
+  {
+    "question": "If Iran were to develop nuclear weapons, do you think they would be likely to...attack the U.S. or European nations, or not?",
+    "selections": [
+      0.5463917525773195,
+      0.4536082474226804
+    ],
+    "options": [
+      "Yes, likely",
+      "No, not likely"
+    ],
+    "consistency_id": 202,
+    "option": "Yes, likely",
+    "label": 1
+  },
+  {
+    "question": "If Iran were to develop nuclear weapons, do you think they would be likely to...attack the U.S. or European nations, or not?",
+    "selections": [
+      0.5463917525773195,
+      0.4536082474226804
+    ],
+    "options": [
+      "Yes, likely",
+      "No, not likely"
+    ],
+    "consistency_id": 202,
+    "option": "No, not likely",
+    "label": 0
+  }
+]
