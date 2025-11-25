@@ -1,14 +1,17 @@
-## Unsupervised Elicitation of Language Models
+## Unsupervised Persona Elicitation
 
-We introduce a new unsupervised algorithm for eliciting skills from pretrained language models. This algorithm is competitive with training on human labels on common misconceptions (TruthfulQA), math (GSM8k-verification), and helpfulness reward modeling (Alpaca). Without supervision, we train a helpful chat assistant from the Haiku 3.5 base model that outperforms a similarly trained human-supervised baseline.
+In this project, we apply the ICM algorithm to elicit personas from global opinions.
 
-
+## Results and Report
+### Report
+Report: [doc/presona_elicitation_report.pdf](doc/presona_elicitation_report.pdf)
+### Results
 <p align="center">
-  <img width="100%" src="figures/llama_performance.png">
+  <img width="100%" src="doc/fig/accuracy_vs_examples.png">
 </p>
 
 <p align="center">
-  <img width="100%" src="figures/claude_performance.png">
+  <img width="100%" src="doc/fig/average_accuracy_comparison.png">
 </p>
 
 ## Note
@@ -26,9 +29,13 @@ We introduce a new unsupervised algorithm for eliciting skills from pretrained l
 uv run ./src/experiments/ICM.py --testbed global_opinions --model meta-llama/Meta-Llama-3.1-405B --K 120 --country US
 ```
 ### Evaluation
-US
+US (many-shot)
 ```commandline
 uv run src/experiments/ICM.py --mode test --testbed global_opinions --country US --test_mode many-shot --test_data_path data/labeled_global_opinions_US.json --batch_size 4 --num_shots 50
+```
+US (gold-label)
+```commandline
+uv run src/experiments/ICM.py --mode test --testbed global_opinions --country US --test_mode gold-label --test_data_path data/labeled_global_opinions_US.json --batch_size 4 --num_shots 50
 ```
 DE
 ```commandline
@@ -38,17 +45,14 @@ FR
 ```commandline
 uv run src/experiments/ICM.py --mode test --testbed global_opinions --country FR --test_mode many-shot --test_data_path data/labeled_global_opinions_FR.json --batch_size 4 --num_shots 54
 ```
-
+#### Random Label
+```commandline
+uv run src/experiments/ICM.py --mode test --testbed global_opinions --country US --test_mode random --test_data_path data/labeled_global_opinions_US.json --batch_size 4 --num_shots 50 --random_label_ratio 0.8
+```
 #### Instruct model evaluation (zero-shot)
 ```command
 export YOUR_FIREFOX_KEY && python scripts/evaluate_instruct.py --model accounts/fireworks/models/llama-v3p1-405b-instruct --testbed global_opinions --country DE --test_mode zero-shot --batch_size 2
 ```
-
-### Environment
-
-1. create conda environment: `conda env create -f env.yaml`
-
-2. install package `pip install -e .`
 
 ### API for Pretrained Base Models
 
@@ -66,27 +70,7 @@ You should create a file called SECRETS at the root of the repository with the f
 LLAMA_API_BASE=<your_api_base_url>
 NYU_ORG=None
 ARG_ORG=None
-API_KEY=None
-```
-
-### Data Preparation
-
-Download data from this [link](https://drive.google.com/file/d/1AJdFJO9IHfOnWHyIlGvInyndLu6EvcfV/view?usp=sharing).
-Put it under the `data/` directory.
-
-## Run
-
-### ICM
-<p align="center">
-  <img width="100%" src="figures/algorithm.png">
-</p>
-
-
-The main script is located in `src/experiments/ICM.py`
-An example command for labeling truthfulQA data:
-```
-cd src/experiments
-python ICM.py --testbed truthfulQA --alpha 50
+API_KEY=<your_api_key>
 ```
 
 Arguments:
@@ -104,14 +88,4 @@ Arguments:
 - `--initial_T`: initial temprature for simulated annealing
 - `--final_T`: final temperature for simulated annealing
 - `--scheduler`: decay scheduler for simulated annealing
-
-### Iterative Fine-tuning
-
-Instead of using the initial pretrained model ($M_0$) to label all $N$ batches, we do iterative fine-tuning: 
-
-- fine-tune the pretrained model on the first $j$ batches to obtain $M_j$
-
-- use $M_j$ to label the $j+1$-th batch.
-
-We use [axolotl](https://github.com/axolotl-ai-cloud/axolotl) for fine-tuning.
 
