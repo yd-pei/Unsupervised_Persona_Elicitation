@@ -28,7 +28,7 @@ uv run ./src/experiments/ICM.py --testbed global_opinions --model meta-llama/Met
 ### Evaluation
 US
 ```commandline
-uv run src/experiments/ICM.py --mode test --testbed global_opinions --country US --test_mode many-shot --test_data_path data/labeled_global_opinions_US.json --batch_size 4 --num_shots 63
+uv run src/experiments/ICM.py --mode test --testbed global_opinions --country US --test_mode many-shot --test_data_path data/labeled_global_opinions_US.json --batch_size 4 --num_shots 50
 ```
 DE
 ```commandline
@@ -37,6 +37,11 @@ uv run src/experiments/ICM.py --mode test --testbed global_opinions --country DE
 FR
 ```commandline
 uv run src/experiments/ICM.py --mode test --testbed global_opinions --country FR --test_mode many-shot --test_data_path data/labeled_global_opinions_FR.json --batch_size 4 --num_shots 54
+```
+
+#### Instruct model evaluation (zero-shot)
+```command
+export YOUR_FIREFOX_KEY && python scripts/evaluate_instruct.py --model accounts/fireworks/models/llama-v3p1-405b-instruct --testbed global_opinions --country DE --test_mode zero-shot --batch_size 2
 ```
 
 ### Environment

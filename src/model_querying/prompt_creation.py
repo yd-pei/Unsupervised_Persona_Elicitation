@@ -43,3 +43,21 @@ def get_judge_prompt_fewshot(example, demonstrations=None, pipeline=True):
         return Prompt(prompt)
     else:
         return prompt
+
+
+def get_judge_prompt_fewshot_chat(example, demonstrations=None, pipeline=True):
+    if demonstrations is None:
+        demonstrations = list(example["demonstration"].values())
+    prompt = ""
+    for i in demonstrations:
+        prompt += i['prompt']
+        prompt += "True" if i["label"] else "False"
+        prompt += "\n\n"
+
+    prompt += example['prompt']
+    prompt += " Answer with True or False."
+
+    if pipeline:
+        return Prompt([{"role": "user", "content": prompt}])
+    else:
+        return [{"role": "user", "content": prompt}]

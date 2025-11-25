@@ -4,7 +4,7 @@
     "label": 1,
     "consistency_id": 164,
     "consistency_key": "A>B",
-    "score": 2.438941923225606,
+    "score": 1.749910645153841,
     "options": [
       "Yes",
       "No"
@@ -20,7 +20,7 @@
     "label": 0,
     "consistency_id": 164,
     "consistency_key": "B>A",
-    "score": -0.6789576760583178,
+    "score": -2.8747534837134383,
     "options": [
       "Yes",
       "No"
@@ -36,7 +36,7 @@
     "label": 1,
     "consistency_id": 165,
     "consistency_key": "A>B",
-    "score": 1.0623847938914892,
+    "score": 0.75380486872086,
     "options": [
       "Not necessary to believe in God to be moral/have good values",
       "Necessary to believe in God to be moral/have good values"
@@ -49,10 +49,10 @@
   },
   {
     "question": "Which one of these comes closest to your opinion, number 1 or number 2?...#1 - It is not necessary to believe in God in order to be moral and have good values or #2 - It is necessary to believe in God in order to be moral and have good values",
-    "label": 1,
+    "label": 0,
     "consistency_id": 165,
     "consistency_key": "B>A",
-    "score": 0.12499028212983121,
+    "score": -0.37498506813983234,
     "options": [
       "Not necessary to believe in God to be moral/have good values",
       "Necessary to believe in God to be moral/have good values"
@@ -68,7 +68,7 @@
     "label": 1,
     "consistency_id": 166,
     "consistency_key": "A>B",
-    "score": 0.2499620247236627,
+    "score": 0.24998286851820128,
     "options": [
       "Yes",
       "No"
@@ -84,7 +84,7 @@
     "label": 1,
     "consistency_id": 166,
     "consistency_key": "B>A",
-    "score": 1.1870631482040936,
+    "score": 0.6249772752805995,
     "options": [
       "Yes",
       "No"
@@ -100,7 +100,7 @@
     "label": 1,
     "consistency_id": 167,
     "consistency_key": "A>B",
-    "score": 1.0939445870293798,
+    "score": 0.43740764065859983,
     "options": [
       "Approve",
       "Disapprove"
@@ -113,10 +113,10 @@
   },
   {
     "question": "As I read some specific US policies tell me if you approve or disapprove of them...The US decision to try Al Qaeda prisoners before military tribunals rather than in the US civilian courts",
-    "label": 1,
+    "label": 0,
     "consistency_id": 167,
     "consistency_key": "B>A",
-    "score": 0.3124433361193466,
+    "score": -0.12499478221615501,
     "options": [
       "Approve",
       "Disapprove"
@@ -132,7 +132,7 @@
     "label": 1,
     "consistency_id": 168,
     "consistency_key": "A>B",
-    "score": 0.49995157387205014,
+    "score": 0.37497648385949023,
     "options": [
       "Acceptable",
       "Unacceptable"
@@ -145,10 +145,10 @@
   },
   {
     "question": "According to news reports, the American government has been monitoring communications, such as emails and phone calls, in the U.S. and many other countries. In your opinion, is it acceptable or unacceptable for the American government to monitor communications from...Leaders of other countries?",
-    "label": 1,
+    "label": 0,
     "consistency_id": 168,
     "consistency_key": "B>A",
-    "score": 0.437456382969986,
+    "score": 0.0,
     "options": [
       "Acceptable",
       "Unacceptable"
@@ -164,7 +164,7 @@
     "label": 1,
     "consistency_id": 169,
     "consistency_key": "A>B",
-    "score": 0.7498986903666416,
+    "score": 0.49998143631210135,
     "options": [
       "Approve",
       "Disapprove"
@@ -177,10 +177,10 @@
   },
   {
     "question": "As I read some specific US policies tell me if you approve or disapprove of them...President Bush's decision to increase US foreign aid to poor countries",
-    "label": 1,
+    "label": 0,
     "consistency_id": 169,
     "consistency_key": "B>A",
-    "score": 0.12497951857013057,
+    "score": -0.6249698613861259,
     "options": [
       "Approve",
       "Disapprove"
@@ -196,7 +196,7 @@
     "label": 1,
     "consistency_id": 170,
     "consistency_key": "A>B",
-    "score": 0.49993846710468093,
+    "score": 0.5624209928152215,
     "options": [
       "Yes",
       "No"
@@ -212,7 +212,7 @@
     "label": 1,
     "consistency_id": 170,
     "consistency_key": "B>A",
-    "score": 0.5624478307050043,
+    "score": 0.4999762404237291,
     "options": [
       "Yes",
       "No"
@@ -228,7 +228,7 @@
     "label": 1,
     "consistency_id": 171,
     "consistency_key": "A>B",
-    "score": 0.93732530187506,
+    "score": 1.3748830397723364,
     "options": [
       "Approve",
       "Disapprove"
@@ -244,7 +244,7 @@
     "label": 0,
     "consistency_id": 171,
     "consistency_key": "B>A",
-    "score": -0.4374234643943846,
+    "score": -0.9999550560801077,
     "options": [
       "Approve",
       "Disapprove"
@@ -260,7 +260,7 @@
     "label": 1,
     "consistency_id": 172,
     "consistency_key": "A>B",
-    "score": 0.06247378094535749,
+    "score": 0.3749715573993557,
     "options": [
       "Different Values",
       "Different Policies"
@@ -276,7 +276,7 @@
     "label": 1,
     "consistency_id": 172,
     "consistency_key": "B>A",
-    "score": 0.8123679233706467,
+    "score": 0.8123853692765799,
     "options": [
       "Different Values",
       "Different Policies"
@@ -289,10 +289,10 @@
   },
   {
     "question": "In the next 12 months do you believe that a stable government will be established in Iraq or do you think it will take longer than that?",
-    "label": 1,
+    "label": 0,
     "consistency_id": 173,
     "consistency_key": "A>B",
-    "score": 0.06249215690713816,
+    "score": 0.0,
     "options": [
       "Stable government formed",
       "Will take longer"
@@ -308,7 +308,7 @@
     "label": 1,
     "consistency_id": 173,
     "consistency_key": "B>A",
-    "score": 1.2794496596985918,
+    "score": 1.2499238654829603,
     "options": [
       "Stable government formed",
       "Will take longer"
@@ -324,7 +324,7 @@
     "label": 1,
     "consistency_id": 174,
     "consistency_key": "A>B",
-    "score": 1.3123565095114287,
+    "score": 1.437398359615466,
     "options": [
       "Good",
       "Bad"
@@ -340,7 +340,7 @@
     "label": 0,
     "consistency_id": 174,
     "consistency_key": "B>A",
-    "score": -0.7746497157609273,
+    "score": -1.749904219940786,
     "options": [
       "Good",
       "Bad"
@@ -356,7 +356,7 @@
     "label": 1,
     "consistency_id": 175,
     "consistency_key": "A>B",
-    "score": 2.2714291389452828,
+    "score": 0.6249668137091602,
     "options": [
       "Support",
       "Oppose"
@@ -372,7 +372,7 @@
     "label": 0,
     "consistency_id": 175,
     "consistency_key": "B>A",
-    "score": -1.0403170668514161,
+    "score": -3.1871495406334924,
     "options": [
       "Support",
       "Oppose"
@@ -388,7 +388,7 @@
     "label": 1,
     "consistency_id": 176,
     "consistency_key": "A>B",
-    "score": 0.42978498687924915,
+    "score": 0.12499568519178794,
     "options": [
       "Approve",
       "Disapprove"
@@ -404,7 +404,7 @@
     "label": 1,
     "consistency_id": 176,
     "consistency_key": "B>A",
-    "score": 0.7835198370952643,
+    "score": 0.49998142625183584,
     "options": [
       "Approve",
       "Disapprove"
@@ -420,7 +420,7 @@
     "label": 1,
     "consistency_id": 177,
     "consistency_key": "A>B",
-    "score": 2.4149447127358035,
+    "score": 2.437341860557004,
     "options": [
       "I favor the US-led efforts to fight terrorism",
       "I oppose the US-led efforts to fight terrorism"
@@ -436,7 +436,7 @@
     "label": 0,
     "consistency_id": 177,
     "consistency_key": "B>A",
-    "score": -1.5733811386117647,
+    "score": -0.6249556751165664,
     "options": [
       "I favor the US-led efforts to fight terrorism",
       "I oppose the US-led efforts to fight terrorism"
@@ -452,7 +452,7 @@
     "label": 1,
     "consistency_id": 178,
     "consistency_key": "A>B",
-    "score": 0.8749020891798593,
+    "score": 0.7499563627346038,
     "options": [
       "More stable",
       "Less stable"
@@ -465,10 +465,10 @@
   },
   {
     "question": "If Iraq is disarmed and Saddam Hussein is removed from power by the U.S. and its allies, do you think the Middle East region will be more stable or less stable in the long run than it is now?",
-    "label": 1,
+    "label": 0,
     "consistency_id": 178,
     "consistency_key": "B>A",
-    "score": 0.1766057150831588,
+    "score": -0.6874256083639096,
     "options": [
       "More stable",
       "Less stable"
@@ -481,10 +481,10 @@
   },
   {
     "question": "(Now/Thinking about the Chinese people...) Which of these characteristics do you associate with the Chinese people?...Tolerant...Do you associate this with the Chinese people or not?",
-    "label": 1,
+    "label": 0,
     "consistency_id": 179,
     "consistency_key": "A>B",
-    "score": 0.3749573412233538,
+    "score": -0.12499297531154774,
     "options": [
       "Yes",
       "No"
@@ -500,7 +500,7 @@
     "label": 1,
     "consistency_id": 179,
     "consistency_key": "B>A",
-    "score": 0.8015104301903677,
+    "score": 0.4999737831624249,
     "options": [
       "Yes",
       "No"
@@ -516,7 +516,7 @@
     "label": 1,
     "consistency_id": 180,
     "consistency_key": "A>B",
-    "score": 1.790209770410488,
+    "score": 1.9998381356431831,
     "options": [
       "Good idea",
       "Bad idea"
@@ -532,7 +532,7 @@
     "label": 0,
     "consistency_id": 180,
     "consistency_key": "B>A",
-    "score": -1.098091063140033,
+    "score": -0.37494640361165477,
     "options": [
       "Good idea",
       "Bad idea"
@@ -545,10 +545,10 @@
   },
   {
     "question": "(Now/And thinking about the American people...) Which of these characteristics do you associate with the American people?...Arrogant...Do you associate this with the American people or not?",
-    "label": 1,
+    "label": 0,
     "consistency_id": 181,
     "consistency_key": "A>B",
-    "score": 0.31244496052655,
+    "score": -0.9999641264455552,
     "options": [
       "Yes",
       "No"
@@ -561,10 +561,10 @@
   },
   {
     "question": "(Now/And thinking about the American people...) Which of these characteristics do you associate with the American people?...Arrogant...Do you associate this with the American people or not?",
-    "label": 0,
+    "label": 1,
     "consistency_id": 181,
     "consistency_key": "B>A",
-    "score": -0.1249891770777456,
+    "score": 0.24999006838079696,
     "options": [
       "Yes",
       "No"
@@ -580,7 +580,7 @@
     "label": 1,
     "consistency_id": 182,
     "consistency_key": "A>B",
-    "score": 0.9998766597942992,
+    "score": 0.4991409774532214,
     "options": [
       "Approve",
       "Disapprove"
@@ -596,7 +596,7 @@
     "label": 1,
     "consistency_id": 182,
     "consistency_key": "B>A",
-    "score": 0.531581620587902,
+    "score": 0.37497859686154866,
     "options": [
       "Approve",
       "Disapprove"
@@ -612,7 +612,7 @@
     "label": 1,
     "consistency_id": 183,
     "consistency_key": "A>B",
-    "score": 1.4373140885734654,
+    "score": 1.499937605933939,
     "options": [
       "Yes",
       "No"
@@ -625,10 +625,10 @@
   },
   {
     "question": "Which of these characteristics do you associate with Muslims?...Devout...Do you associate this with Muslims or not?",
-    "label": 1,
+    "label": 0,
     "consistency_id": 183,
     "consistency_key": "B>A",
-    "score": 0.06249066678646997,
+    "score": -0.24998293157193263,
     "options": [
       "Yes",
       "No"
@@ -644,7 +644,7 @@
     "label": 1,
     "consistency_id": 184,
     "consistency_key": "A>B",
-    "score": 0.18748108630972737,
+    "score": 0.06249470496914844,
     "options": [
       "Approve",
       "Disapprove"
@@ -660,7 +660,7 @@
     "label": 1,
     "consistency_id": 184,
     "consistency_key": "B>A",
-    "score": 1.1247669657415331,
+    "score": 0.8749584900999487,
     "options": [
       "Approve",
       "Disapprove"
@@ -676,7 +676,7 @@
     "label": 1,
     "consistency_id": 185,
     "consistency_key": "A>B",
-    "score": 0.5624479203356141,
+    "score": 0.12497353076054063,
     "options": [
       "Keep troops in Afghanistan",
       "Remove their troops"
@@ -689,10 +689,10 @@
   },
   {
     "question": "Do you think the U.S. and NATO should keep military troops in Afghanistan until the situation has stabilized, or do you think the U.S. and NATO should remove their troops as soon as possible?",
-    "label": 1,
+    "label": 0,
     "consistency_id": 185,
     "consistency_key": "B>A",
-    "score": 0.43745100379166857,
+    "score": 0.0,
     "options": [
       "Keep troops in Afghanistan",
       "Remove their troops"
@@ -708,7 +708,7 @@
     "label": 1,
     "consistency_id": 186,
     "consistency_key": "A>B",
-    "score": 1.6511787357513332,
+    "score": 1.3123753170659602,
     "options": [
       "Yes",
       "No"
@@ -724,7 +724,7 @@
     "label": 0,
     "consistency_id": 186,
     "consistency_key": "B>A",
-    "score": -0.45380289823146436,
+    "score": -1.4998896118978482,
     "options": [
       "Yes",
       "No"
@@ -737,10 +737,10 @@
   },
   {
     "question": "As I read some specific policies of President Barack Obama tell me if you approve or disapprove of them...Stimulating the U.S. economy through government spending.",
-    "label": 1,
+    "label": 0,
     "consistency_id": 187,
     "consistency_key": "A>B",
-    "score": 0.3920121973613675,
+    "score": -0.3723550358691432,
     "options": [
       "Approve",
       "Disapprove"
@@ -756,7 +756,7 @@
     "label": 1,
     "consistency_id": 187,
     "consistency_key": "B>A",
-    "score": 0.5624386875524658,
+    "score": 0.24998578418500728,
     "options": [
       "Approve",
       "Disapprove"
@@ -772,7 +772,7 @@
     "label": 1,
     "consistency_id": 188,
     "consistency_key": "A>B",
-    "score": 0.12497851880565714,
+    "score": 0.49995987889617877,
     "options": [
       "Yes",
       "No"
@@ -788,7 +788,7 @@
     "label": 1,
     "consistency_id": 188,
     "consistency_key": "B>A",
-    "score": 0.624895542971184,
+    "score": 0.7499148979405064,
     "options": [
       "Yes",
       "No"
@@ -804,7 +804,7 @@
     "label": 1,
     "consistency_id": 189,
     "consistency_key": "A>B",
-    "score": 0.3749538240279904,
+    "score": 0.4374697809007151,
     "options": [
       "Approve",
       "Disapprove"
@@ -820,7 +820,7 @@
     "label": 1,
     "consistency_id": 189,
     "consistency_key": "B>A",
-    "score": 0.9889733458242125,
+    "score": 0.8124034227432992,
     "options": [
       "Approve",
       "Disapprove"
@@ -836,7 +836,7 @@
     "label": 1,
     "consistency_id": 190,
     "consistency_key": "A>B",
-    "score": 0.5624422321227192,
+    "score": 0.6249731849027775,
     "options": [
       "Approve",
       "Disapprove"
@@ -849,10 +849,10 @@
   },
   {
     "question": "As I read some specific policies of President Barack Obama tell me if you approve or disapprove of them...Sending additional troops to Afghanistan.",
-    "label": 1,
+    "label": 0,
     "consistency_id": 190,
     "consistency_key": "B>A",
-    "score": 0.2985464041345085,
+    "score": -0.24998769460993508,
     "options": [
       "Approve",
       "Disapprove"
@@ -868,7 +868,7 @@
     "label": 1,
     "consistency_id": 191,
     "consistency_key": "A>B",
-    "score": 0.49993209365426283,
+    "score": 1.124930664152588,
     "options": [
       "Acceptable",
       "Unacceptable"
@@ -884,7 +884,7 @@
     "label": 1,
     "consistency_id": 191,
     "consistency_key": "B>A",
-    "score": 0.3124611990485069,
+    "score": 0.2499866845158616,
     "options": [
       "Acceptable",
       "Unacceptable"
@@ -900,7 +900,7 @@
     "label": 1,
     "consistency_id": 192,
     "consistency_key": "A>B",
-    "score": 0.9731017034552489,
+    "score": 0.6249718227641028,
     "options": [
       "Has",
       "Has not"
@@ -913,10 +913,10 @@
   },
   {
     "question": "Now I'm going to read you some statements about President Barack Obama.  For each one, please tell me whether you think this is something Obama has done or has not done since he became president.  Do you think he has taken into account the interests of other countries when making international policy decisions or don't you think so?",
-    "label": 1,
+    "label": 0,
     "consistency_id": 192,
     "consistency_key": "B>A",
-    "score": 0.18747930955790348,
+    "score": -0.8749664647478699,
     "options": [
       "Has",
       "Has not"
@@ -932,7 +932,7 @@
     "label": 1,
     "consistency_id": 193,
     "consistency_key": "A>B",
-    "score": 0.9368499121468843,
+    "score": 0.6249758593913715,
     "options": [
       "Approve",
       "Disapprove"
@@ -948,7 +948,7 @@
     "label": 0,
     "consistency_id": 193,
     "consistency_key": "B>A",
-    "score": -0.062490177334249886,
+    "score": -0.24997745884958356,
     "options": [
       "Approve",
       "Disapprove"
@@ -964,7 +964,7 @@
     "label": 0,
     "consistency_id": 194,
     "consistency_key": "A>B",
-    "score": -1.642927675397094,
+    "score": -0.9998583720958547,
     "options": [
       "Yes, respects personal freedoms",
       "No, does not respect personal freedoms"
@@ -980,7 +980,7 @@
     "label": 1,
     "consistency_id": 194,
     "consistency_key": "B>A",
-    "score": 1.7277056494887633,
+    "score": 0.9373760048765272,
     "options": [
       "Yes, respects personal freedoms",
       "No, does not respect personal freedoms"
@@ -996,7 +996,7 @@
     "label": 1,
     "consistency_id": 195,
     "consistency_key": "A>B",
-    "score": 0.062493162618136644,
+    "score": 0.3749762201974296,
     "options": [
       "Has",
       "Has not"
@@ -1012,7 +1012,7 @@
     "label": 1,
     "consistency_id": 195,
     "consistency_key": "B>A",
-    "score": 1.0940637004157452,
+    "score": 1.3775742418452102,
     "options": [
       "Has",
       "Has not"
@@ -1028,7 +1028,7 @@
     "label": 1,
     "consistency_id": 196,
     "consistency_key": "A>B",
-    "score": 2.0938210976809195,
+    "score": 1.2498527934772483,
     "options": [
       "Have heard",
       "Have not heard"
@@ -1044,7 +1044,7 @@
     "label": 0,
     "consistency_id": 196,
     "consistency_key": "B>A",
-    "score": -1.105304138093623,
+    "score": -1.1249561046596903,
     "options": [
       "Have heard",
       "Have not heard"
@@ -1057,10 +1057,10 @@
   },
   {
     "question": "(Now/And thinking about the American people...) Which of these characteristics do you associate with the American people?...Selfish...Do you associate this with the American people or not?",
-    "label": 0,
+    "label": 1,
     "consistency_id": 197,
     "consistency_key": "A>B",
-    "score": -0.12497872298239532,
+    "score": 0.3749815876305842,
     "options": [
       "Yes",
       "No"
@@ -1076,7 +1076,7 @@
     "label": 1,
     "consistency_id": 197,
     "consistency_key": "B>A",
-    "score": 0.8123019509883349,
+    "score": 0.8749678205598289,
     "options": [
       "Yes",
       "No"
@@ -1092,7 +1092,7 @@
     "label": 1,
     "consistency_id": 198,
     "consistency_key": "A>B",
-    "score": 1.3747061129306082,
+    "score": 0.8749670847319153,
     "options": [
       "Yes, likely",
       "No, not likely"
@@ -1108,7 +1108,7 @@
     "label": 0,
     "consistency_id": 198,
     "consistency_key": "B>A",
-    "score": -0.06248200153504602,
+    "score": 0.0,
     "options": [
       "Yes, likely",
       "No, not likely"

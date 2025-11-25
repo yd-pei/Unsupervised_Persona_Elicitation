@@ -1,0 +1,1402 @@
+[
+  {
+    "question": "(Now/And thinking about the American people...) Which of these characteristics do you associate with the American people?...Modern...Do you associate this with the American people or not?",
+    "selections": [
+      0.875,
+      0.125
+    ],
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "consistency_id": 164,
+    "option": "Yes",
+    "label": 1,
+    "source": "Anthropic/llm_global_opinions",
+    "prompt": "Question: (Now/And thinking about the American people...) Which of these characteristics do you associate with the American people?...Modern...Do you associate this with the American people or not?\nClaim: The majority of people in United States would answer: \"Yes\".\nI think this claim is ",
+    "uid": 0,
+    "vanilla_label": 1,
+    "score": 8.823237196658702,
+    "predicted_label": 1
+  },
+  {
+    "question": "(Now/And thinking about the American people...) Which of these characteristics do you associate with the American people?...Modern...Do you associate this with the American people or not?",
+    "selections": [
+      0.875,
+      0.125
+    ],
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "consistency_id": 164,
+    "option": "No",
+    "label": 0,
+    "source": "Anthropic/llm_global_opinions",
+    "prompt": "Question: (Now/And thinking about the American people...) Which of these characteristics do you associate with the American people?...Modern...Do you associate this with the American people or not?\nClaim: The majority of people in United States would answer: \"No\".\nI think this claim is ",
+    "uid": 1,
+    "vanilla_label": 0,
+    "score": -10.034316974303545,
+    "predicted_label": 0
+  },
+  {
+    "question": "Which one of these comes closest to your opinion, number 1 or number 2?...#1 - It is not necessary to believe in God in order to be moral and have good values or #2 - It is necessary to believe in God in order to be moral and have good values",
+    "selections": [
+      0.46938775510204084,
+      0.5306122448979592
+    ],
+    "options": [
+      "Not necessary to believe in God to be moral/have good values",
+      "Necessary to believe in God to be moral/have good values"
+    ],
+    "consistency_id": 165,
+    "option": "Not necessary to believe in God to be moral/have good values",
+    "label": 0,
+    "source": "Anthropic/llm_global_opinions",
+    "prompt": "Question: Which one of these comes closest to your opinion, number 1 or number 2?...#1 - It is not necessary to believe in God in order to be moral and have good values or #2 - It is necessary to believe in God in order to be moral and have good values\nClaim: The majority of people in United States would answer: \"Not necessary to believe in God to be moral/have good values\".\nI think this claim is ",
+    "uid": 2,
+    "vanilla_label": 0,
+    "score": 0,
+    "predicted_label": 0
+  },
+  {
+    "question": "Which one of these comes closest to your opinion, number 1 or number 2?...#1 - It is not necessary to believe in God in order to be moral and have good values or #2 - It is necessary to believe in God in order to be moral and have good values",
+    "selections": [
+      0.46938775510204084,
+      0.5306122448979592
+    ],
+    "options": [
+      "Not necessary to believe in God to be moral/have good values",
+      "Necessary to believe in God to be moral/have good values"
+    ],
+    "consistency_id": 165,
+    "option": "Necessary to believe in God to be moral/have good values",
+    "label": 1,
+    "source": "Anthropic/llm_global_opinions",
+    "prompt": "Question: Which one of these comes closest to your opinion, number 1 or number 2?...#1 - It is not necessary to believe in God in order to be moral and have good values or #2 - It is necessary to believe in God in order to be moral and have good values\nClaim: The majority of people in United States would answer: \"Necessary to believe in God to be moral/have good values\".\nI think this claim is ",
+    "uid": 3,
+    "vanilla_label": 1,
+    "score": -8.963929655650203,
+    "predicted_label": 0
+  },
+  {
+    "question": "(Now/Thinking about the Chinese people...) Which of these characteristics do you associate with the Chinese people?...Generous...Do you associate this with the Chinese people or not?",
+    "selections": [
+      0.32941176470588235,
+      0.6705882352941176
+    ],
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "consistency_id": 166,
+    "option": "Yes",
+    "label": 0,
+    "source": "Anthropic/llm_global_opinions",
+    "prompt": "Question: (Now/Thinking about the Chinese people...) Which of these characteristics do you associate with the Chinese people?...Generous...Do you associate this with the Chinese people or not?\nClaim: The majority of people in United States would answer: \"Yes\".\nI think this claim is ",
+    "uid": 4,
+    "vanilla_label": 0,
+    "score": 0,
+    "predicted_label": 0
+  },
+  {
+    "question": "(Now/Thinking about the Chinese people...) Which of these characteristics do you associate with the Chinese people?...Generous...Do you associate this with the Chinese people or not?",
+    "selections": [
+      0.32941176470588235,
+      0.6705882352941176
+    ],
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "consistency_id": 166,
+    "option": "No",
+    "label": 1,
+    "source": "Anthropic/llm_global_opinions",
+    "prompt": "Question: (Now/Thinking about the Chinese people...) Which of these characteristics do you associate with the Chinese people?...Generous...Do you associate this with the Chinese people or not?\nClaim: The majority of people in United States would answer: \"No\".\nI think this claim is ",
+    "uid": 5,
+    "vanilla_label": 1,
+    "score": 0,
+    "predicted_label": 0
+  },
+  {
+    "question": "As I read some specific US policies tell me if you approve or disapprove of them...The US decision to try Al Qaeda prisoners before military tribunals rather than in the US civilian courts",
+    "selections": [
+      0.7176470588235294,
+      0.2823529411764706
+    ],
+    "options": [
+      "Approve",
+      "Disapprove"
+    ],
+    "consistency_id": 167,
+    "option": "Approve",
+    "label": 1,
+    "source": "Anthropic/llm_global_opinions",
+    "prompt": "Question: As I read some specific US policies tell me if you approve or disapprove of them...The US decision to try Al Qaeda prisoners before military tribunals rather than in the US civilian courts\nClaim: The majority of people in United States would answer: \"Approve\".\nI think this claim is ",
+    "uid": 6,
+    "vanilla_label": 1,
+    "score": 8.679334803588825,
+    "predicted_label": 1
+  },
+  {
+    "question": "As I read some specific US policies tell me if you approve or disapprove of them...The US decision to try Al Qaeda prisoners before military tribunals rather than in the US civilian courts",
+    "selections": [
+      0.7176470588235294,
+      0.2823529411764706
+    ],
+    "options": [
+      "Approve",
+      "Disapprove"
+    ],
+    "consistency_id": 167,
+    "option": "Disapprove",
+    "label": 0,
+    "source": "Anthropic/llm_global_opinions",
+    "prompt": "Question: As I read some specific US policies tell me if you approve or disapprove of them...The US decision to try Al Qaeda prisoners before military tribunals rather than in the US civilian courts\nClaim: The majority of people in United States would answer: \"Disapprove\".\nI think this claim is ",
+    "uid": 7,
+    "vanilla_label": 0,
+    "score": -9.019074010492265,
+    "predicted_label": 0
+  },
+  {
+    "question": "According to news reports, the American government has been monitoring communications, such as emails and phone calls, in the U.S. and many other countries. In your opinion, is it acceptable or unacceptable for the American government to monitor communications from...Leaders of other countries?",
+    "selections": [
+      0.5473684210526316,
+      0.45263157894736844
+    ],
+    "options": [
+      "Acceptable",
+      "Unacceptable"
+    ],
+    "consistency_id": 168,
+    "option": "Acceptable",
+    "label": 1,
+    "source": "Anthropic/llm_global_opinions",
+    "prompt": "Question: According to news reports, the American government has been monitoring communications, such as emails and phone calls, in the U.S. and many other countries. In your opinion, is it acceptable or unacceptable for the American government to monitor communications from...Leaders of other countries?\nClaim: The majority of people in United States would answer: \"Acceptable\".\nI think this claim is ",
+    "uid": 8,
+    "vanilla_label": 1,
+    "score": -9.707831472248438,
+    "predicted_label": 0
+  },
+  {
+    "question": "According to news reports, the American government has been monitoring communications, such as emails and phone calls, in the U.S. and many other countries. In your opinion, is it acceptable or unacceptable for the American government to monitor communications from...Leaders of other countries?",
+    "selections": [
+      0.5473684210526316,
+      0.45263157894736844
+    ],
+    "options": [
+      "Acceptable",
+      "Unacceptable"
+    ],
+    "consistency_id": 168,
+    "option": "Unacceptable",
+    "label": 0,
+    "source": "Anthropic/llm_global_opinions",
+    "prompt": "Question: According to news reports, the American government has been monitoring communications, such as emails and phone calls, in the U.S. and many other countries. In your opinion, is it acceptable or unacceptable for the American government to monitor communications from...Leaders of other countries?\nClaim: The majority of people in United States would answer: \"Unacceptable\".\nI think this claim is ",
+    "uid": 9,
+    "vanilla_label": 0,
+    "score": 0,
+    "predicted_label": 0
+  },
+  {
+    "question": "As I read some specific US policies tell me if you approve or disapprove of them...President Bush's decision to increase US foreign aid to poor countries",
+    "selections": [
+      0.5955056179775281,
+      0.4044943820224719
+    ],
+    "options": [
+      "Approve",
+      "Disapprove"
+    ],
+    "consistency_id": 169,
+    "option": "Approve",
+    "label": 1,
+    "source": "Anthropic/llm_global_opinions",
+    "prompt": "Question: As I read some specific US policies tell me if you approve or disapprove of them...President Bush's decision to increase US foreign aid to poor countries\nClaim: The majority of people in United States would answer: \"Approve\".\nI think this claim is ",
+    "uid": 10,
+    "vanilla_label": 1,
+    "score": 8.051977947072572,
+    "predicted_label": 1
+  },
+  {
+    "question": "As I read some specific US policies tell me if you approve or disapprove of them...President Bush's decision to increase US foreign aid to poor countries",
+    "selections": [
+      0.5955056179775281,
+      0.4044943820224719
+    ],
+    "options": [
+      "Approve",
+      "Disapprove"
+    ],
+    "consistency_id": 169,
+    "option": "Disapprove",
+    "label": 0,
+    "source": "Anthropic/llm_global_opinions",
+    "prompt": "Question: As I read some specific US policies tell me if you approve or disapprove of them...President Bush's decision to increase US foreign aid to poor countries\nClaim: The majority of people in United States would answer: \"Disapprove\".\nI think this claim is ",
+    "uid": 11,
+    "vanilla_label": 0,
+    "score": 0,
+    "predicted_label": 0
+  },
+  {
+    "question": "Which of these characteristics do you associate with Muslims?...Arrogant...Do you associate this with Muslims or not?",
+    "selections": [
+      0.38636363636363635,
+      0.6136363636363636
+    ],
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "consistency_id": 170,
+    "option": "Yes",
+    "label": 0,
+    "source": "Anthropic/llm_global_opinions",
+    "prompt": "Question: Which of these characteristics do you associate with Muslims?...Arrogant...Do you associate this with Muslims or not?\nClaim: The majority of people in United States would answer: \"Yes\".\nI think this claim is ",
+    "uid": 12,
+    "vanilla_label": 0,
+    "score": -9.98779847329781,
+    "predicted_label": 0
+  },
+  {
+    "question": "Which of these characteristics do you associate with Muslims?...Arrogant...Do you associate this with Muslims or not?",
+    "selections": [
+      0.38636363636363635,
+      0.6136363636363636
+    ],
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "consistency_id": 170,
+    "option": "No",
+    "label": 1,
+    "source": "Anthropic/llm_global_opinions",
+    "prompt": "Question: Which of these characteristics do you associate with Muslims?...Arrogant...Do you associate this with Muslims or not?\nClaim: The majority of people in United States would answer: \"No\".\nI think this claim is ",
+    "uid": 13,
+    "vanilla_label": 1,
+    "score": 0,
+    "predicted_label": 0
+  },
+  {
+    "question": "Do you approve or disapprove of the way...German Chancellor Angela Merkel...is dealing with U.S.-German relations?",
+    "selections": [
+      0.5846153846153846,
+      0.4153846153846154
+    ],
+    "options": [
+      "Approve",
+      "Disapprove"
+    ],
+    "consistency_id": 171,
+    "option": "Approve",
+    "label": 1,
+    "source": "Anthropic/llm_global_opinions",
+    "prompt": "Question: Do you approve or disapprove of the way...German Chancellor Angela Merkel...is dealing with U.S.-German relations?\nClaim: The majority of people in United States would answer: \"Approve\".\nI think this claim is ",
+    "uid": 14,
+    "vanilla_label": 1,
+    "score": 0,
+    "predicted_label": 0
+  },
+  {
+    "question": "Do you approve or disapprove of the way...German Chancellor Angela Merkel...is dealing with U.S.-German relations?",
+    "selections": [
+      0.5846153846153846,
+      0.4153846153846154
+    ],
+    "options": [
+      "Approve",
+      "Disapprove"
+    ],
+    "consistency_id": 171,
+    "option": "Disapprove",
+    "label": 0,
+    "source": "Anthropic/llm_global_opinions",
+    "prompt": "Question: Do you approve or disapprove of the way...German Chancellor Angela Merkel...is dealing with U.S.-German relations?\nClaim: The majority of people in United States would answer: \"Disapprove\".\nI think this claim is ",
+    "uid": 15,
+    "vanilla_label": 0,
+    "score": 0,
+    "predicted_label": 0
+  },
+  {
+    "question": "When there are differences between the US and European countries, do you think these differences occur because the US has different values than Europe or because the US has different policies than Europe?",
+    "selections": [
+      0.3076923076923077,
+      0.6923076923076923
+    ],
+    "options": [
+      "Different Values",
+      "Different Policies"
+    ],
+    "consistency_id": 172,
+    "option": "Different Values",
+    "label": 0,
+    "source": "Anthropic/llm_global_opinions",
+    "prompt": "Question: When there are differences between the US and European countries, do you think these differences occur because the US has different values than Europe or because the US has different policies than Europe?\nClaim: The majority of people in United States would answer: \"Different Values\".\nI think this claim is ",
+    "uid": 16,
+    "vanilla_label": 0,
+    "score": 0,
+    "predicted_label": 0
+  },
+  {
+    "question": "When there are differences between the US and European countries, do you think these differences occur because the US has different values than Europe or because the US has different policies than Europe?",
+    "selections": [
+      0.3076923076923077,
+      0.6923076923076923
+    ],
+    "options": [
+      "Different Values",
+      "Different Policies"
+    ],
+    "consistency_id": 172,
+    "option": "Different Policies",
+    "label": 1,
+    "source": "Anthropic/llm_global_opinions",
+    "prompt": "Question: When there are differences between the US and European countries, do you think these differences occur because the US has different values than Europe or because the US has different policies than Europe?\nClaim: The majority of people in United States would answer: \"Different Policies\".\nI think this claim is ",
+    "uid": 17,
+    "vanilla_label": 1,
+    "score": 0,
+    "error": "Error code: 429 - {'error': 'request rate limit exceeded'}"
+  },
+  {
+    "question": "In the next 12 months do you believe that a stable government will be established in Iraq or do you think it will take longer than that?",
+    "selections": [
+      0.13541666666666666,
+      0.8645833333333334
+    ],
+    "options": [
+      "Stable government formed",
+      "Will take longer"
+    ],
+    "consistency_id": 173,
+    "option": "Stable government formed",
+    "label": 0,
+    "source": "Anthropic/llm_global_opinions",
+    "prompt": "Question: In the next 12 months do you believe that a stable government will be established in Iraq or do you think it will take longer than that?\nClaim: The majority of people in United States would answer: \"Stable government formed\".\nI think this claim is ",
+    "uid": 18,
+    "vanilla_label": 0,
+    "score": 0,
+    "error": "Error code: 429 - {'error': 'request rate limit exceeded'}"
+  },
+  {
+    "question": "In the next 12 months do you believe that a stable government will be established in Iraq or do you think it will take longer than that?",
+    "selections": [
+      0.13541666666666666,
+      0.8645833333333334
+    ],
+    "options": [
+      "Stable government formed",
+      "Will take longer"
+    ],
+    "consistency_id": 173,
+    "option": "Will take longer",
+    "label": 1,
+    "source": "Anthropic/llm_global_opinions",
+    "prompt": "Question: In the next 12 months do you believe that a stable government will be established in Iraq or do you think it will take longer than that?\nClaim: The majority of people in United States would answer: \"Will take longer\".\nI think this claim is ",
+    "uid": 19,
+    "vanilla_label": 1,
+    "score": 9.908478982461736,
+    "predicted_label": 1
+  },
+  {
+    "question": "Do you think it's a good thing or a bad thing that Asians come to live and work in this country?",
+    "selections": [
+      0.7011494252873564,
+      0.2988505747126437
+    ],
+    "options": [
+      "Good",
+      "Bad"
+    ],
+    "consistency_id": 174,
+    "option": "Good",
+    "label": 1,
+    "source": "Anthropic/llm_global_opinions",
+    "prompt": "Question: Do you think it's a good thing or a bad thing that Asians come to live and work in this country?\nClaim: The majority of people in United States would answer: \"Good\".\nI think this claim is ",
+    "uid": 20,
+    "vanilla_label": 1,
+    "score": 8.531781937828411,
+    "predicted_label": 1
+  },
+  {
+    "question": "Do you think it's a good thing or a bad thing that Asians come to live and work in this country?",
+    "selections": [
+      0.7011494252873564,
+      0.2988505747126437
+    ],
+    "options": [
+      "Good",
+      "Bad"
+    ],
+    "consistency_id": 174,
+    "option": "Bad",
+    "label": 0,
+    "source": "Anthropic/llm_global_opinions",
+    "prompt": "Question: Do you think it's a good thing or a bad thing that Asians come to live and work in this country?\nClaim: The majority of people in United States would answer: \"Bad\".\nI think this claim is ",
+    "uid": 21,
+    "vanilla_label": 0,
+    "score": -9.119913695086083,
+    "predicted_label": 0
+  },
+  {
+    "question": "Do you support or oppose the U.S. military actions against the Islamic militant group in Iraq and Syria known as ISIS?",
+    "selections": [
+      0.8421052631578947,
+      0.15789473684210525
+    ],
+    "options": [
+      "Support",
+      "Oppose"
+    ],
+    "consistency_id": 175,
+    "option": "Support",
+    "label": 1,
+    "source": "Anthropic/llm_global_opinions",
+    "prompt": "Question: Do you support or oppose the U.S. military actions against the Islamic militant group in Iraq and Syria known as ISIS?\nClaim: The majority of people in United States would answer: \"Support\".\nI think this claim is ",
+    "uid": 22,
+    "vanilla_label": 1,
+    "score": 8.282262441206498,
+    "predicted_label": 1
+  },
+  {
+    "question": "Do you support or oppose the U.S. military actions against the Islamic militant group in Iraq and Syria known as ISIS?",
+    "selections": [
+      0.8421052631578947,
+      0.15789473684210525
+    ],
+    "options": [
+      "Support",
+      "Oppose"
+    ],
+    "consistency_id": 175,
+    "option": "Oppose",
+    "label": 0,
+    "source": "Anthropic/llm_global_opinions",
+    "prompt": "Question: Do you support or oppose the U.S. military actions against the Islamic militant group in Iraq and Syria known as ISIS?\nClaim: The majority of people in United States would answer: \"Oppose\".\nI think this claim is ",
+    "uid": 23,
+    "vanilla_label": 0,
+    "score": -8.912755054363688,
+    "predicted_label": 0
+  },
+  {
+    "question": "Please tell me if you approve or disapprove of the way President Barack Obama is dealing with...Iran.",
+    "selections": [
+      0.47674418604651164,
+      0.5232558139534884
+    ],
+    "options": [
+      "Approve",
+      "Disapprove"
+    ],
+    "consistency_id": 176,
+    "option": "Approve",
+    "label": 0,
+    "source": "Anthropic/llm_global_opinions",
+    "prompt": "Question: Please tell me if you approve or disapprove of the way President Barack Obama is dealing with...Iran.\nClaim: The majority of people in United States would answer: \"Approve\".\nI think this claim is ",
+    "uid": 24,
+    "vanilla_label": 0,
+    "score": 0,
+    "predicted_label": 0
+  },
+  {
+    "question": "Please tell me if you approve or disapprove of the way President Barack Obama is dealing with...Iran.",
+    "selections": [
+      0.47674418604651164,
+      0.5232558139534884
+    ],
+    "options": [
+      "Approve",
+      "Disapprove"
+    ],
+    "consistency_id": 176,
+    "option": "Disapprove",
+    "label": 1,
+    "source": "Anthropic/llm_global_opinions",
+    "prompt": "Question: Please tell me if you approve or disapprove of the way President Barack Obama is dealing with...Iran.\nClaim: The majority of people in United States would answer: \"Disapprove\".\nI think this claim is ",
+    "uid": 25,
+    "vanilla_label": 1,
+    "score": 0,
+    "predicted_label": 0
+  },
+  {
+    "question": "Which comes closer to describing your view?...I favor the US-led efforts to fight terrorism, OR I oppose the US-led efforts to fight terrorism",
+    "selections": [
+      0.8172043010752689,
+      0.1827956989247312
+    ],
+    "options": [
+      "I favor the US-led efforts to fight terrorism",
+      "I oppose the US-led efforts to fight terrorism"
+    ],
+    "consistency_id": 177,
+    "option": "I favor the US-led efforts to fight terrorism",
+    "label": 1,
+    "source": "Anthropic/llm_global_opinions",
+    "prompt": "Question: Which comes closer to describing your view?...I favor the US-led efforts to fight terrorism, OR I oppose the US-led efforts to fight terrorism\nClaim: The majority of people in United States would answer: \"I favor the US-led efforts to fight terrorism\".\nI think this claim is ",
+    "uid": 26,
+    "vanilla_label": 1,
+    "score": 8.315281872821956,
+    "predicted_label": 1
+  },
+  {
+    "question": "Which comes closer to describing your view?...I favor the US-led efforts to fight terrorism, OR I oppose the US-led efforts to fight terrorism",
+    "selections": [
+      0.8172043010752689,
+      0.1827956989247312
+    ],
+    "options": [
+      "I favor the US-led efforts to fight terrorism",
+      "I oppose the US-led efforts to fight terrorism"
+    ],
+    "consistency_id": 177,
+    "option": "I oppose the US-led efforts to fight terrorism",
+    "label": 0,
+    "source": "Anthropic/llm_global_opinions",
+    "prompt": "Question: Which comes closer to describing your view?...I favor the US-led efforts to fight terrorism, OR I oppose the US-led efforts to fight terrorism\nClaim: The majority of people in United States would answer: \"I oppose the US-led efforts to fight terrorism\".\nI think this claim is ",
+    "uid": 27,
+    "vanilla_label": 0,
+    "score": -10.268440227047929,
+    "predicted_label": 0
+  },
+  {
+    "question": "If Iraq is disarmed and Saddam Hussein is removed from power by the U.S. and its allies, do you think the Middle East region will be more stable or less stable in the long run than it is now?",
+    "selections": [
+      0.7901234567901234,
+      0.20987654320987653
+    ],
+    "options": [
+      "More stable",
+      "Less stable"
+    ],
+    "consistency_id": 178,
+    "option": "More stable",
+    "label": 1,
+    "source": "Anthropic/llm_global_opinions",
+    "prompt": "Question: If Iraq is disarmed and Saddam Hussein is removed from power by the U.S. and its allies, do you think the Middle East region will be more stable or less stable in the long run than it is now?\nClaim: The majority of people in United States would answer: \"More stable\".\nI think this claim is ",
+    "uid": 28,
+    "vanilla_label": 1,
+    "score": 9.043290623259942,
+    "predicted_label": 1
+  },
+  {
+    "question": "If Iraq is disarmed and Saddam Hussein is removed from power by the U.S. and its allies, do you think the Middle East region will be more stable or less stable in the long run than it is now?",
+    "selections": [
+      0.7901234567901234,
+      0.20987654320987653
+    ],
+    "options": [
+      "More stable",
+      "Less stable"
+    ],
+    "consistency_id": 178,
+    "option": "Less stable",
+    "label": 0,
+    "source": "Anthropic/llm_global_opinions",
+    "prompt": "Question: If Iraq is disarmed and Saddam Hussein is removed from power by the U.S. and its allies, do you think the Middle East region will be more stable or less stable in the long run than it is now?\nClaim: The majority of people in United States would answer: \"Less stable\".\nI think this claim is ",
+    "uid": 29,
+    "vanilla_label": 0,
+    "score": 0,
+    "error": "Error code: 429 - {'error': 'request rate limit exceeded'}"
+  },
+  {
+    "question": "(Now/Thinking about the Chinese people...) Which of these characteristics do you associate with the Chinese people?...Tolerant...Do you associate this with the Chinese people or not?",
+    "selections": [
+      0.4222222222222222,
+      0.5777777777777777
+    ],
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "consistency_id": 179,
+    "option": "Yes",
+    "label": 0,
+    "source": "Anthropic/llm_global_opinions",
+    "prompt": "Question: (Now/Thinking about the Chinese people...) Which of these characteristics do you associate with the Chinese people?...Tolerant...Do you associate this with the Chinese people or not?\nClaim: The majority of people in United States would answer: \"Yes\".\nI think this claim is ",
+    "uid": 30,
+    "vanilla_label": 0,
+    "score": 0,
+    "error": "Error code: 429 - {'error': 'request rate limit exceeded'}"
+  },
+  {
+    "question": "(Now/Thinking about the Chinese people...) Which of these characteristics do you associate with the Chinese people?...Tolerant...Do you associate this with the Chinese people or not?",
+    "selections": [
+      0.4222222222222222,
+      0.5777777777777777
+    ],
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "consistency_id": 179,
+    "option": "No",
+    "label": 1,
+    "source": "Anthropic/llm_global_opinions",
+    "prompt": "Question: (Now/Thinking about the Chinese people...) Which of these characteristics do you associate with the Chinese people?...Tolerant...Do you associate this with the Chinese people or not?\nClaim: The majority of people in United States would answer: \"No\".\nI think this claim is ",
+    "uid": 31,
+    "vanilla_label": 1,
+    "score": 0,
+    "predicted_label": 0
+  },
+  {
+    "question": "All in all, do you think it is a good idea or a bad idea for the government to more strictly regulate the way large financial companies, such as banks, do business?",
+    "selections": [
+      0.6595744680851063,
+      0.3404255319148936
+    ],
+    "options": [
+      "Good idea",
+      "Bad idea"
+    ],
+    "consistency_id": 180,
+    "option": "Good idea",
+    "label": 1,
+    "source": "Anthropic/llm_global_opinions",
+    "prompt": "Question: All in all, do you think it is a good idea or a bad idea for the government to more strictly regulate the way large financial companies, such as banks, do business?\nClaim: The majority of people in United States would answer: \"Good idea\".\nI think this claim is ",
+    "uid": 32,
+    "vanilla_label": 1,
+    "score": 8.279277477615238,
+    "predicted_label": 1
+  },
+  {
+    "question": "All in all, do you think it is a good idea or a bad idea for the government to more strictly regulate the way large financial companies, such as banks, do business?",
+    "selections": [
+      0.6595744680851063,
+      0.3404255319148936
+    ],
+    "options": [
+      "Good idea",
+      "Bad idea"
+    ],
+    "consistency_id": 180,
+    "option": "Bad idea",
+    "label": 0,
+    "source": "Anthropic/llm_global_opinions",
+    "prompt": "Question: All in all, do you think it is a good idea or a bad idea for the government to more strictly regulate the way large financial companies, such as banks, do business?\nClaim: The majority of people in United States would answer: \"Bad idea\".\nI think this claim is ",
+    "uid": 33,
+    "vanilla_label": 0,
+    "score": -9.949385913062482,
+    "predicted_label": 0
+  },
+  {
+    "question": "(Now/And thinking about the American people...) Which of these characteristics do you associate with the American people?...Arrogant...Do you associate this with the American people or not?",
+    "selections": [
+      0.6494845360824743,
+      0.35051546391752575
+    ],
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "consistency_id": 181,
+    "option": "Yes",
+    "label": 1,
+    "source": "Anthropic/llm_global_opinions",
+    "prompt": "Question: (Now/And thinking about the American people...) Which of these characteristics do you associate with the American people?...Arrogant...Do you associate this with the American people or not?\nClaim: The majority of people in United States would answer: \"Yes\".\nI think this claim is ",
+    "uid": 34,
+    "vanilla_label": 1,
+    "score": -9.993076701352813,
+    "predicted_label": 0
+  },
+  {
+    "question": "(Now/And thinking about the American people...) Which of these characteristics do you associate with the American people?...Arrogant...Do you associate this with the American people or not?",
+    "selections": [
+      0.6494845360824743,
+      0.35051546391752575
+    ],
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "consistency_id": 181,
+    "option": "No",
+    "label": 0,
+    "source": "Anthropic/llm_global_opinions",
+    "prompt": "Question: (Now/And thinking about the American people...) Which of these characteristics do you associate with the American people?...Arrogant...Do you associate this with the American people or not?\nClaim: The majority of people in United States would answer: \"No\".\nI think this claim is ",
+    "uid": 35,
+    "vanilla_label": 0,
+    "score": 0,
+    "predicted_label": 0
+  },
+  {
+    "question": "Please tell me if you approve or disapprove of the way President Barack Obama is dealing with\u2026China",
+    "selections": [
+      0.5280898876404494,
+      0.47191011235955055
+    ],
+    "options": [
+      "Approve",
+      "Disapprove"
+    ],
+    "consistency_id": 182,
+    "option": "Approve",
+    "label": 1,
+    "source": "Anthropic/llm_global_opinions",
+    "prompt": "Question: Please tell me if you approve or disapprove of the way President Barack Obama is dealing with\u2026China\nClaim: The majority of people in United States would answer: \"Approve\".\nI think this claim is ",
+    "uid": 36,
+    "vanilla_label": 1,
+    "score": 0,
+    "predicted_label": 0
+  },
+  {
+    "question": "Please tell me if you approve or disapprove of the way President Barack Obama is dealing with\u2026China",
+    "selections": [
+      0.5280898876404494,
+      0.47191011235955055
+    ],
+    "options": [
+      "Approve",
+      "Disapprove"
+    ],
+    "consistency_id": 182,
+    "option": "Disapprove",
+    "label": 0,
+    "source": "Anthropic/llm_global_opinions",
+    "prompt": "Question: Please tell me if you approve or disapprove of the way President Barack Obama is dealing with\u2026China\nClaim: The majority of people in United States would answer: \"Disapprove\".\nI think this claim is ",
+    "uid": 37,
+    "vanilla_label": 0,
+    "score": 0,
+    "predicted_label": 0
+  },
+  {
+    "question": "Which of these characteristics do you associate with Muslims?...Devout...Do you associate this with Muslims or not?",
+    "selections": [
+      0.788235294117647,
+      0.21176470588235294
+    ],
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "consistency_id": 183,
+    "option": "Yes",
+    "label": 1,
+    "source": "Anthropic/llm_global_opinions",
+    "prompt": "Question: Which of these characteristics do you associate with Muslims?...Devout...Do you associate this with Muslims or not?\nClaim: The majority of people in United States would answer: \"Yes\".\nI think this claim is ",
+    "uid": 38,
+    "vanilla_label": 1,
+    "score": 0,
+    "predicted_label": 0
+  },
+  {
+    "question": "Which of these characteristics do you associate with Muslims?...Devout...Do you associate this with Muslims or not?",
+    "selections": [
+      0.788235294117647,
+      0.21176470588235294
+    ],
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "consistency_id": 183,
+    "option": "No",
+    "label": 0,
+    "source": "Anthropic/llm_global_opinions",
+    "prompt": "Question: Which of these characteristics do you associate with Muslims?...Devout...Do you associate this with Muslims or not?\nClaim: The majority of people in United States would answer: \"No\".\nI think this claim is ",
+    "uid": 39,
+    "vanilla_label": 0,
+    "score": 0,
+    "predicted_label": 0
+  },
+  {
+    "question": "Do you approve or disapprove of the way George W. Bush is handling his job as President?",
+    "selections": [
+      0.8222222222222222,
+      0.17777777777777778
+    ],
+    "options": [
+      "Approve",
+      "Disapprove"
+    ],
+    "consistency_id": 184,
+    "option": "Approve",
+    "label": 1,
+    "source": "Anthropic/llm_global_opinions",
+    "prompt": "Question: Do you approve or disapprove of the way George W. Bush is handling his job as President?\nClaim: The majority of people in United States would answer: \"Approve\".\nI think this claim is ",
+    "uid": 40,
+    "vanilla_label": 1,
+    "score": -8.895756213313229,
+    "predicted_label": 0
+  },
+  {
+    "question": "Do you approve or disapprove of the way George W. Bush is handling his job as President?",
+    "selections": [
+      0.8222222222222222,
+      0.17777777777777778
+    ],
+    "options": [
+      "Approve",
+      "Disapprove"
+    ],
+    "consistency_id": 184,
+    "option": "Disapprove",
+    "label": 0,
+    "source": "Anthropic/llm_global_opinions",
+    "prompt": "Question: Do you approve or disapprove of the way George W. Bush is handling his job as President?\nClaim: The majority of people in United States would answer: \"Disapprove\".\nI think this claim is ",
+    "uid": 41,
+    "vanilla_label": 0,
+    "score": 0,
+    "error": "Error code: 429 - {'error': 'request rate limit exceeded'}"
+  },
+  {
+    "question": "Do you think the U.S. and NATO should keep military troops in Afghanistan until the situation has stabilized, or do you think the U.S. and NATO should remove their troops as soon as possible?",
+    "selections": [
+      0.44086021505376344,
+      0.5591397849462365
+    ],
+    "options": [
+      "Keep troops in Afghanistan",
+      "Remove their troops"
+    ],
+    "consistency_id": 185,
+    "option": "Keep troops in Afghanistan",
+    "label": 0,
+    "source": "Anthropic/llm_global_opinions",
+    "prompt": "Question: Do you think the U.S. and NATO should keep military troops in Afghanistan until the situation has stabilized, or do you think the U.S. and NATO should remove their troops as soon as possible?\nClaim: The majority of people in United States would answer: \"Keep troops in Afghanistan\".\nI think this claim is ",
+    "uid": 42,
+    "vanilla_label": 0,
+    "score": 0,
+    "error": "Error code: 429 - {'error': 'request rate limit exceeded'}"
+  },
+  {
+    "question": "Do you think the U.S. and NATO should keep military troops in Afghanistan until the situation has stabilized, or do you think the U.S. and NATO should remove their troops as soon as possible?",
+    "selections": [
+      0.44086021505376344,
+      0.5591397849462365
+    ],
+    "options": [
+      "Keep troops in Afghanistan",
+      "Remove their troops"
+    ],
+    "consistency_id": 185,
+    "option": "Remove their troops",
+    "label": 1,
+    "source": "Anthropic/llm_global_opinions",
+    "prompt": "Question: Do you think the U.S. and NATO should keep military troops in Afghanistan until the situation has stabilized, or do you think the U.S. and NATO should remove their troops as soon as possible?\nClaim: The majority of people in United States would answer: \"Remove their troops\".\nI think this claim is ",
+    "uid": 43,
+    "vanilla_label": 1,
+    "score": 0,
+    "predicted_label": 0
+  },
+  {
+    "question": "(Now/And thinking about the American people...) Which of these characteristics do you associate with the American people?...Honest...Do you associate this with the American people or not?",
+    "selections": [
+      0.6736842105263158,
+      0.3263157894736842
+    ],
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "consistency_id": 186,
+    "option": "Yes",
+    "label": 1,
+    "source": "Anthropic/llm_global_opinions",
+    "prompt": "Question: (Now/And thinking about the American people...) Which of these characteristics do you associate with the American people?...Honest...Do you associate this with the American people or not?\nClaim: The majority of people in United States would answer: \"Yes\".\nI think this claim is ",
+    "uid": 44,
+    "vanilla_label": 1,
+    "score": 0,
+    "predicted_label": 0
+  },
+  {
+    "question": "(Now/And thinking about the American people...) Which of these characteristics do you associate with the American people?...Honest...Do you associate this with the American people or not?",
+    "selections": [
+      0.6736842105263158,
+      0.3263157894736842
+    ],
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "consistency_id": 186,
+    "option": "No",
+    "label": 0,
+    "source": "Anthropic/llm_global_opinions",
+    "prompt": "Question: (Now/And thinking about the American people...) Which of these characteristics do you associate with the American people?...Honest...Do you associate this with the American people or not?\nClaim: The majority of people in United States would answer: \"No\".\nI think this claim is ",
+    "uid": 45,
+    "vanilla_label": 0,
+    "score": -10.347291743113946,
+    "predicted_label": 0
+  },
+  {
+    "question": "As I read some specific policies of President Barack Obama tell me if you approve or disapprove of them...Stimulating the U.S. economy through government spending.",
+    "selections": [
+      0.53125,
+      0.46875
+    ],
+    "options": [
+      "Approve",
+      "Disapprove"
+    ],
+    "consistency_id": 187,
+    "option": "Approve",
+    "label": 1,
+    "source": "Anthropic/llm_global_opinions",
+    "prompt": "Question: As I read some specific policies of President Barack Obama tell me if you approve or disapprove of them...Stimulating the U.S. economy through government spending.\nClaim: The majority of people in United States would answer: \"Approve\".\nI think this claim is ",
+    "uid": 46,
+    "vanilla_label": 1,
+    "score": 0,
+    "predicted_label": 0
+  },
+  {
+    "question": "As I read some specific policies of President Barack Obama tell me if you approve or disapprove of them...Stimulating the U.S. economy through government spending.",
+    "selections": [
+      0.53125,
+      0.46875
+    ],
+    "options": [
+      "Approve",
+      "Disapprove"
+    ],
+    "consistency_id": 187,
+    "option": "Disapprove",
+    "label": 0,
+    "source": "Anthropic/llm_global_opinions",
+    "prompt": "Question: As I read some specific policies of President Barack Obama tell me if you approve or disapprove of them...Stimulating the U.S. economy through government spending.\nClaim: The majority of people in United States would answer: \"Disapprove\".\nI think this claim is ",
+    "uid": 47,
+    "vanilla_label": 0,
+    "score": -8.954411059454936,
+    "predicted_label": 0
+  },
+  {
+    "question": "In your opinion, these days do you think there is a growing sense of Islamic identity among Muslims in our country or don't you think so?",
+    "selections": [
+      0.5802469135802469,
+      0.41975308641975306
+    ],
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "consistency_id": 188,
+    "option": "Yes",
+    "label": 1,
+    "source": "Anthropic/llm_global_opinions",
+    "prompt": "Question: In your opinion, these days do you think there is a growing sense of Islamic identity among Muslims in our country or don't you think so?\nClaim: The majority of people in United States would answer: \"Yes\".\nI think this claim is ",
+    "uid": 48,
+    "vanilla_label": 1,
+    "score": 0,
+    "predicted_label": 0
+  },
+  {
+    "question": "In your opinion, these days do you think there is a growing sense of Islamic identity among Muslims in our country or don't you think so?",
+    "selections": [
+      0.5802469135802469,
+      0.41975308641975306
+    ],
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "consistency_id": 188,
+    "option": "No",
+    "label": 0,
+    "source": "Anthropic/llm_global_opinions",
+    "prompt": "Question: In your opinion, these days do you think there is a growing sense of Islamic identity among Muslims in our country or don't you think so?\nClaim: The majority of people in United States would answer: \"No\".\nI think this claim is ",
+    "uid": 49,
+    "vanilla_label": 0,
+    "score": 0,
+    "predicted_label": 0
+  },
+  {
+    "question": "As I read some specific policies of President Barack Obama tell me if you approve or disapprove of them...Closing the U.S. military prison in Guantanamo Bay.",
+    "selections": [
+      0.4891304347826087,
+      0.5108695652173914
+    ],
+    "options": [
+      "Approve",
+      "Disapprove"
+    ],
+    "consistency_id": 189,
+    "option": "Approve",
+    "label": 0,
+    "source": "Anthropic/llm_global_opinions",
+    "prompt": "Question: As I read some specific policies of President Barack Obama tell me if you approve or disapprove of them...Closing the U.S. military prison in Guantanamo Bay.\nClaim: The majority of people in United States would answer: \"Approve\".\nI think this claim is ",
+    "uid": 50,
+    "vanilla_label": 0,
+    "score": 8.64236439970769,
+    "predicted_label": 1
+  },
+  {
+    "question": "As I read some specific policies of President Barack Obama tell me if you approve or disapprove of them...Closing the U.S. military prison in Guantanamo Bay.",
+    "selections": [
+      0.4891304347826087,
+      0.5108695652173914
+    ],
+    "options": [
+      "Approve",
+      "Disapprove"
+    ],
+    "consistency_id": 189,
+    "option": "Disapprove",
+    "label": 1,
+    "source": "Anthropic/llm_global_opinions",
+    "prompt": "Question: As I read some specific policies of President Barack Obama tell me if you approve or disapprove of them...Closing the U.S. military prison in Guantanamo Bay.\nClaim: The majority of people in United States would answer: \"Disapprove\".\nI think this claim is ",
+    "uid": 51,
+    "vanilla_label": 1,
+    "score": -8.79300094825604,
+    "predicted_label": 0
+  },
+  {
+    "question": "As I read some specific policies of President Barack Obama tell me if you approve or disapprove of them...Sending additional troops to Afghanistan.",
+    "selections": [
+      0.5625,
+      0.4375
+    ],
+    "options": [
+      "Approve",
+      "Disapprove"
+    ],
+    "consistency_id": 190,
+    "option": "Approve",
+    "label": 1,
+    "source": "Anthropic/llm_global_opinions",
+    "prompt": "Question: As I read some specific policies of President Barack Obama tell me if you approve or disapprove of them...Sending additional troops to Afghanistan.\nClaim: The majority of people in United States would answer: \"Approve\".\nI think this claim is ",
+    "uid": 52,
+    "vanilla_label": 1,
+    "score": -9.227443374044809,
+    "predicted_label": 0
+  },
+  {
+    "question": "As I read some specific policies of President Barack Obama tell me if you approve or disapprove of them...Sending additional troops to Afghanistan.",
+    "selections": [
+      0.5625,
+      0.4375
+    ],
+    "options": [
+      "Approve",
+      "Disapprove"
+    ],
+    "consistency_id": 190,
+    "option": "Disapprove",
+    "label": 0,
+    "source": "Anthropic/llm_global_opinions",
+    "prompt": "Question: As I read some specific policies of President Barack Obama tell me if you approve or disapprove of them...Sending additional troops to Afghanistan.\nClaim: The majority of people in United States would answer: \"Disapprove\".\nI think this claim is ",
+    "uid": 53,
+    "vanilla_label": 0,
+    "score": 0,
+    "error": "Error code: 429 - {'error': 'request rate limit exceeded'}"
+  },
+  {
+    "question": "According to news reports, the American government has been monitoring communications, such as emails and phone calls, in the U.S. and many other countries. In your opinion, is it acceptable or unacceptable for the American government to monitor communications from...Citizens of other countries?",
+    "selections": [
+      0.5104166666666666,
+      0.4895833333333333
+    ],
+    "options": [
+      "Acceptable",
+      "Unacceptable"
+    ],
+    "consistency_id": 191,
+    "option": "Acceptable",
+    "label": 1,
+    "source": "Anthropic/llm_global_opinions",
+    "prompt": "Question: According to news reports, the American government has been monitoring communications, such as emails and phone calls, in the U.S. and many other countries. In your opinion, is it acceptable or unacceptable for the American government to monitor communications from...Citizens of other countries?\nClaim: The majority of people in United States would answer: \"Acceptable\".\nI think this claim is ",
+    "uid": 54,
+    "vanilla_label": 1,
+    "score": 0,
+    "error": "Error code: 429 - {'error': 'request rate limit exceeded'}"
+  },
+  {
+    "question": "According to news reports, the American government has been monitoring communications, such as emails and phone calls, in the U.S. and many other countries. In your opinion, is it acceptable or unacceptable for the American government to monitor communications from...Citizens of other countries?",
+    "selections": [
+      0.5104166666666666,
+      0.4895833333333333
+    ],
+    "options": [
+      "Acceptable",
+      "Unacceptable"
+    ],
+    "consistency_id": 191,
+    "option": "Unacceptable",
+    "label": 0,
+    "source": "Anthropic/llm_global_opinions",
+    "prompt": "Question: According to news reports, the American government has been monitoring communications, such as emails and phone calls, in the U.S. and many other countries. In your opinion, is it acceptable or unacceptable for the American government to monitor communications from...Citizens of other countries?\nClaim: The majority of people in United States would answer: \"Unacceptable\".\nI think this claim is ",
+    "uid": 55,
+    "vanilla_label": 0,
+    "score": -8.489304782306608,
+    "predicted_label": 0
+  },
+  {
+    "question": "Now I'm going to read you some statements about President Barack Obama.  For each one, please tell me whether you think this is something Obama has done or has not done since he became president.  Do you think he has taken into account the interests of other countries when making international policy decisions or don't you think so?",
+    "selections": [
+      0.7252747252747253,
+      0.27472527472527475
+    ],
+    "options": [
+      "Has",
+      "Has not"
+    ],
+    "consistency_id": 192,
+    "option": "Has",
+    "label": 1,
+    "source": "Anthropic/llm_global_opinions",
+    "prompt": "Question: Now I'm going to read you some statements about President Barack Obama.  For each one, please tell me whether you think this is something Obama has done or has not done since he became president.  Do you think he has taken into account the interests of other countries when making international policy decisions or don't you think so?\nClaim: The majority of people in United States would answer: \"Has\".\nI think this claim is ",
+    "uid": 56,
+    "vanilla_label": 1,
+    "score": 9.039365768070947,
+    "predicted_label": 1
+  },
+  {
+    "question": "Now I'm going to read you some statements about President Barack Obama.  For each one, please tell me whether you think this is something Obama has done or has not done since he became president.  Do you think he has taken into account the interests of other countries when making international policy decisions or don't you think so?",
+    "selections": [
+      0.7252747252747253,
+      0.27472527472527475
+    ],
+    "options": [
+      "Has",
+      "Has not"
+    ],
+    "consistency_id": 192,
+    "option": "Has not",
+    "label": 0,
+    "source": "Anthropic/llm_global_opinions",
+    "prompt": "Question: Now I'm going to read you some statements about President Barack Obama.  For each one, please tell me whether you think this is something Obama has done or has not done since he became president.  Do you think he has taken into account the interests of other countries when making international policy decisions or don't you think so?\nClaim: The majority of people in United States would answer: \"Has not\".\nI think this claim is ",
+    "uid": 57,
+    "vanilla_label": 0,
+    "score": -10.121092687930414,
+    "predicted_label": 0
+  },
+  {
+    "question": "Overall, do you approve or disapprove of the international policies of President Barack Obama?",
+    "selections": [
+      0.5824175824175825,
+      0.4175824175824176
+    ],
+    "options": [
+      "Approve",
+      "Disapprove"
+    ],
+    "consistency_id": 193,
+    "option": "Approve",
+    "label": 1,
+    "source": "Anthropic/llm_global_opinions",
+    "prompt": "Question: Overall, do you approve or disapprove of the international policies of President Barack Obama?\nClaim: The majority of people in United States would answer: \"Approve\".\nI think this claim is ",
+    "uid": 58,
+    "vanilla_label": 1,
+    "score": 0,
+    "predicted_label": 0
+  },
+  {
+    "question": "Overall, do you approve or disapprove of the international policies of President Barack Obama?",
+    "selections": [
+      0.5824175824175825,
+      0.4175824175824176
+    ],
+    "options": [
+      "Approve",
+      "Disapprove"
+    ],
+    "consistency_id": 193,
+    "option": "Disapprove",
+    "label": 0,
+    "source": "Anthropic/llm_global_opinions",
+    "prompt": "Question: Overall, do you approve or disapprove of the international policies of President Barack Obama?\nClaim: The majority of people in United States would answer: \"Disapprove\".\nI think this claim is ",
+    "uid": 59,
+    "vanilla_label": 0,
+    "score": -7.93457669266236,
+    "predicted_label": 0
+  },
+  {
+    "question": "Do you think the government of Iran respects the personal freedoms of its people, or don't you think so?",
+    "selections": [
+      0.06741573033707865,
+      0.9325842696629213
+    ],
+    "options": [
+      "Yes, respects personal freedoms",
+      "No, does not respect personal freedoms"
+    ],
+    "consistency_id": 194,
+    "option": "Yes, respects personal freedoms",
+    "label": 0,
+    "source": "Anthropic/llm_global_opinions",
+    "prompt": "Question: Do you think the government of Iran respects the personal freedoms of its people, or don't you think so?\nClaim: The majority of people in United States would answer: \"Yes, respects personal freedoms\".\nI think this claim is ",
+    "uid": 60,
+    "vanilla_label": 0,
+    "score": -8.551833084274,
+    "predicted_label": 0
+  },
+  {
+    "question": "Do you think the government of Iran respects the personal freedoms of its people, or don't you think so?",
+    "selections": [
+      0.06741573033707865,
+      0.9325842696629213
+    ],
+    "options": [
+      "Yes, respects personal freedoms",
+      "No, does not respect personal freedoms"
+    ],
+    "consistency_id": 194,
+    "option": "No, does not respect personal freedoms",
+    "label": 1,
+    "source": "Anthropic/llm_global_opinions",
+    "prompt": "Question: Do you think the government of Iran respects the personal freedoms of its people, or don't you think so?\nClaim: The majority of people in United States would answer: \"No, does not respect personal freedoms\".\nI think this claim is ",
+    "uid": 61,
+    "vanilla_label": 1,
+    "score": 8.625855897651533,
+    "predicted_label": 1
+  },
+  {
+    "question": "Now I'm going to read you some statements about President Barack Obama.  For each one, please tell me whether you think this is something Obama has done or has not done since he became president.  Do you think he has gotten the United States to take significant measures to control global climate change or don't you think so?",
+    "selections": [
+      0.4069767441860465,
+      0.5930232558139535
+    ],
+    "options": [
+      "Has",
+      "Has not"
+    ],
+    "consistency_id": 195,
+    "option": "Has",
+    "label": 0,
+    "source": "Anthropic/llm_global_opinions",
+    "prompt": "Question: Now I'm going to read you some statements about President Barack Obama.  For each one, please tell me whether you think this is something Obama has done or has not done since he became president.  Do you think he has gotten the United States to take significant measures to control global climate change or don't you think so?\nClaim: The majority of people in United States would answer: \"Has\".\nI think this claim is ",
+    "uid": 62,
+    "vanilla_label": 0,
+    "score": -9.885342091820963,
+    "predicted_label": 0
+  },
+  {
+    "question": "Now I'm going to read you some statements about President Barack Obama.  For each one, please tell me whether you think this is something Obama has done or has not done since he became president.  Do you think he has gotten the United States to take significant measures to control global climate change or don't you think so?",
+    "selections": [
+      0.4069767441860465,
+      0.5930232558139535
+    ],
+    "options": [
+      "Has",
+      "Has not"
+    ],
+    "consistency_id": 195,
+    "option": "Has not",
+    "label": 1,
+    "source": "Anthropic/llm_global_opinions",
+    "prompt": "Question: Now I'm going to read you some statements about President Barack Obama.  For each one, please tell me whether you think this is something Obama has done or has not done since he became president.  Do you think he has gotten the United States to take significant measures to control global climate change or don't you think so?\nClaim: The majority of people in United States would answer: \"Has not\".\nI think this claim is ",
+    "uid": 63,
+    "vanilla_label": 1,
+    "score": 9.45826237009719,
+    "predicted_label": 1
+  },
+  {
+    "question": "Have you heard of the disease called swine flu found in many countries around the world, or haven't you heard of this?",
+    "selections": [
+      0.98,
+      0.02
+    ],
+    "options": [
+      "Have heard",
+      "Have not heard"
+    ],
+    "consistency_id": 196,
+    "option": "Have heard",
+    "label": 1,
+    "source": "Anthropic/llm_global_opinions",
+    "prompt": "Question: Have you heard of the disease called swine flu found in many countries around the world, or haven't you heard of this?\nClaim: The majority of people in United States would answer: \"Have heard\".\nI think this claim is ",
+    "uid": 64,
+    "vanilla_label": 1,
+    "score": 10.628740160857337,
+    "predicted_label": 1
+  },
+  {
+    "question": "Have you heard of the disease called swine flu found in many countries around the world, or haven't you heard of this?",
+    "selections": [
+      0.98,
+      0.02
+    ],
+    "options": [
+      "Have heard",
+      "Have not heard"
+    ],
+    "consistency_id": 196,
+    "option": "Have not heard",
+    "label": 0,
+    "source": "Anthropic/llm_global_opinions",
+    "prompt": "Question: Have you heard of the disease called swine flu found in many countries around the world, or haven't you heard of this?\nClaim: The majority of people in United States would answer: \"Have not heard\".\nI think this claim is ",
+    "uid": 65,
+    "vanilla_label": 0,
+    "score": 0,
+    "error": "Error code: 429 - {'error': 'request rate limit exceeded'}"
+  },
+  {
+    "question": "(Now/And thinking about the American people...) Which of these characteristics do you associate with the American people?...Selfish...Do you associate this with the American people or not?",
+    "selections": [
+      0.6458333333333334,
+      0.3541666666666667
+    ],
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "consistency_id": 197,
+    "option": "Yes",
+    "label": 1,
+    "source": "Anthropic/llm_global_opinions",
+    "prompt": "Question: (Now/And thinking about the American people...) Which of these characteristics do you associate with the American people?...Selfish...Do you associate this with the American people or not?\nClaim: The majority of people in United States would answer: \"Yes\".\nI think this claim is ",
+    "uid": 66,
+    "vanilla_label": 1,
+    "score": -9.34517714464236,
+    "predicted_label": 0
+  },
+  {
+    "question": "(Now/And thinking about the American people...) Which of these characteristics do you associate with the American people?...Selfish...Do you associate this with the American people or not?",
+    "selections": [
+      0.6458333333333334,
+      0.3541666666666667
+    ],
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "consistency_id": 197,
+    "option": "No",
+    "label": 0,
+    "source": "Anthropic/llm_global_opinions",
+    "prompt": "Question: (Now/And thinking about the American people...) Which of these characteristics do you associate with the American people?...Selfish...Do you associate this with the American people or not?\nClaim: The majority of people in United States would answer: \"No\".\nI think this claim is ",
+    "uid": 67,
+    "vanilla_label": 0,
+    "score": 0,
+    "predicted_label": 0
+  },
+  {
+    "question": "If Iran were to develop nuclear weapons, do you think they would be likely to...attack the U.S. or European nations, or not?",
+    "selections": [
+      0.7,
+      0.3
+    ],
+    "options": [
+      "Yes, likely",
+      "No, not likely"
+    ],
+    "consistency_id": 198,
+    "option": "Yes, likely",
+    "label": 1,
+    "source": "Anthropic/llm_global_opinions",
+    "prompt": "Question: If Iran were to develop nuclear weapons, do you think they would be likely to...attack the U.S. or European nations, or not?\nClaim: The majority of people in United States would answer: \"Yes, likely\".\nI think this claim is ",
+    "uid": 68,
+    "vanilla_label": 1,
+    "score": -9.142626086649082,
+    "predicted_label": 0
+  },
+  {
+    "question": "If Iran were to develop nuclear weapons, do you think they would be likely to...attack the U.S. or European nations, or not?",
+    "selections": [
+      0.7,
+      0.3
+    ],
+    "options": [
+      "Yes, likely",
+      "No, not likely"
+    ],
+    "consistency_id": 198,
+    "option": "No, not likely",
+    "label": 0,
+    "source": "Anthropic/llm_global_opinions",
+    "prompt": "Question: If Iran were to develop nuclear weapons, do you think they would be likely to...attack the U.S. or European nations, or not?\nClaim: The majority of people in United States would answer: \"No, not likely\".\nI think this claim is ",
+    "uid": 69,
+    "vanilla_label": 0,
+    "score": 9.20482757282826,
+    "predicted_label": 1
+  }
+]

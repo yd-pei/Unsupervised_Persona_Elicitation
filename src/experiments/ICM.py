@@ -21,10 +21,12 @@ from src.experiments.ICM_tools import (
 from src.model_querying.prompt_creation import (
     get_decision_prompt,
     get_judge_prompt_fewshot,
+    get_judge_prompt_fewshot_chat,
 )
 from src.model_querying.solution_extraction import (
     extract_claim_logprobs,
     extract_decision_logprobs,
+    extract_claim_greedy,
 )
 from src.pipeline.pipeline import Pipeline, PipelineConfig
 from src.tools.dataloaders import (
@@ -233,14 +235,27 @@ def get_pipeline(
         dependencies=[initial_assign],
     )
 
+    is_chat = "instruct" in model.lower() or "chat" in model.lower()
+    
+    if is_chat:
+        prompt_fn = get_judge_prompt_fewshot_chat
+        parse_fn = extract_claim_greedy
+        logprobs = False
+        max_tokens = 10
+    else:
+        prompt_fn = get_judge_prompt_fewshot
+        parse_fn = extract_claim_logprobs
+        logprobs = 20
+        max_tokens = 1
+
     get_train_preds = pipeline.add_query_step(
         "get_train_preds",
         model,
-        get_judge_prompt_fewshot,
-        extract_claim_logprobs,
+        prompt_fn,
+        parse_fn,
         dependencies=[merged_train_data],
-        logprobs=20,
-        max_tokens=1,
+        logprobs=logprobs,
+        max_tokens=max_tokens,
         use_cache=use_cache,
     )
 
@@ -264,17 +279,29 @@ async def predict_assignment(model, example, demonstrations):
         for k, v in demonstrations.items()
         if k != example["uid"] and v["label"] is not None
     ]
+    is_chat = "instruct" in model.lower() or "chat" in model.lower()
+    if is_chat:
+        prompt_fn = get_judge_prompt_fewshot_chat
+        parse_fn = extract_claim_greedy
+        logprobs = False
+        max_tokens = 10
+    else:
+        prompt_fn = get_judge_prompt_fewshot
+        parse_fn = extract_claim_logprobs
+        logprobs = 20
+        max_tokens = 1
+
     anthropic_requests = [
         model_api(
             model,
-            get_judge_prompt_fewshot(
+            prompt_fn(
                 example,
                 demos,
                 pipeline=False,
             ),
-            logprobs=20,
-            max_tokens=1,
-            parse_fn=extract_claim_logprobs,
+            logprobs=logprobs,
+            max_tokens=max_tokens,
+            parse_fn=parse_fn,
         )
     ]
     responses = await asyncio.gather(*anthropic_requests)
@@ -732,17 +759,29 @@ async def run_test_batch(model, items, demonstrations, num_shots=0):
             else:
                 demos = candidates
 
+        is_chat = "instruct" in model.lower() or "chat" in model.lower()
+        if is_chat:
+            prompt_fn = get_judge_prompt_fewshot_chat
+            parse_fn = extract_claim_greedy
+            logprobs = False
+            max_tokens = 10
+        else:
+            prompt_fn = get_judge_prompt_fewshot
+            parse_fn = extract_claim_logprobs
+            logprobs = 20
+            max_tokens = 1
+
         tasks.append(
             model_api(
                 model,
-                get_judge_prompt_fewshot(
+                prompt_fn(
                     item,
                     demos,
                     pipeline=False,
                 ),
-                logprobs=20,
-                max_tokens=1,
-                parse_fn=extract_claim_logprobs,
+                logprobs=logprobs,
+                max_tokens=max_tokens,
+                parse_fn=parse_fn,
             )
         )
     
@@ -878,10 +917,23 @@ I think this claim is """
 
         # 4. Process Results
         correct_count = 0
+        valid_count = 0
+        predicted_labels = []
+        is_chat = "instruct" in args.model.lower() or "chat" in args.model.lower()
+
         for i, response in enumerate(all_responses):
             result = response[0] 
             score = result["score"]
+            
+            # For chat models, ignore if score is 0 (invalid extraction)
+            if is_chat and score == 0:
+                items[i]["score"] = score
+                items[i]["label"] = None # Or keep as is, but don't count
+                continue
+
+            valid_count += 1
             predicted_label = 1 if score > 0 else 0
+            predicted_labels.append(predicted_label)
             
             items[i]["score"] = score
             items[i]["label"] = predicted_label
@@ -889,8 +941,13 @@ I think this claim is """
             if predicted_label == items[i]["vanilla_label"]:
                 correct_count += 1
 
-        accuracy = correct_count / len(items)
-        print(f"Test Accuracy: {accuracy:.4f}")
+        if valid_count > 0:
+            accuracy = correct_count / valid_count
+        else:
+            accuracy = 0
+
+        print(f"Test Accuracy: {accuracy:.4f} (Valid: {valid_count}/{len(items)})")
+        print(f"Predicted Label Distribution: {Counter(predicted_labels)}")
 
         # 5. Save Results
         save_results(formatted_data, args, f"{args.testbed}_{args.country}_{args.test_mode}")

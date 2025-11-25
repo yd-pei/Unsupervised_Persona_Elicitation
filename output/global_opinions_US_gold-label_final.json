@@ -4,7 +4,7 @@
     "label": 1,
     "consistency_id": 164,
     "consistency_key": "A>B",
-    "score": 2.227521241827949,
+    "score": 2.182962686465149,
     "options": [
       "Yes",
       "No"
@@ -20,7 +20,7 @@
     "label": 0,
     "consistency_id": 164,
     "consistency_key": "B>A",
-    "score": -0.6773581484237359,
+    "score": -1.3874721279177342,
     "options": [
       "Yes",
       "No"
@@ -36,7 +36,7 @@
     "label": 1,
     "consistency_id": 165,
     "consistency_key": "A>B",
-    "score": 0.9999083466532437,
+    "score": 0.9374265411102465,
     "options": [
       "Not necessary to believe in God to be moral/have good values",
       "Necessary to believe in God to be moral/have good values"
@@ -52,7 +52,7 @@
     "label": 0,
     "consistency_id": 165,
     "consistency_key": "B>A",
-    "score": -0.12499063824045309,
+    "score": 0.0,
     "options": [
       "Not necessary to believe in God to be moral/have good values",
       "Necessary to believe in God to be moral/have good values"
@@ -68,7 +68,7 @@
     "label": 0,
     "consistency_id": 166,
     "consistency_key": "A>B",
-    "score": -0.18745498500641622,
+    "score": -0.12497292483871458,
     "options": [
       "Yes",
       "No"
@@ -84,7 +84,7 @@
     "label": 1,
     "consistency_id": 166,
     "consistency_key": "B>A",
-    "score": 0.9331662279685333,
+    "score": 1.3734241293385312,
     "options": [
       "Yes",
       "No"
@@ -100,7 +100,7 @@
     "label": 1,
     "consistency_id": 167,
     "consistency_key": "A>B",
-    "score": 0.8123017993977295,
+    "score": 0.6874135400475145,
     "options": [
       "Approve",
       "Disapprove"
@@ -116,7 +116,7 @@
     "label": 0,
     "consistency_id": 167,
     "consistency_key": "B>A",
-    "score": 0.0,
+    "score": -0.06249346936481892,
     "options": [
       "Approve",
       "Disapprove"
@@ -132,7 +132,7 @@
     "label": 1,
     "consistency_id": 168,
     "consistency_key": "A>B",
-    "score": 0.18747497842055516,
+    "score": 0.4374420489689541,
     "options": [
       "Acceptable",
       "Unacceptable"
@@ -148,7 +148,7 @@
     "label": 1,
     "consistency_id": 168,
     "consistency_key": "B>A",
-    "score": 0.1874837078929188,
+    "score": 0.06248825825922211,
     "options": [
       "Acceptable",
       "Unacceptable"
@@ -164,7 +164,7 @@
     "label": 1,
     "consistency_id": 169,
     "consistency_key": "A>B",
-    "score": 0.9998726440671457,
+    "score": 0.6248917417420046,
     "options": [
       "Approve",
       "Disapprove"
@@ -180,7 +180,7 @@
     "label": 1,
     "consistency_id": 169,
     "consistency_key": "B>A",
-    "score": 0.12498059714333465,
+    "score": 0.1271185021946355,
     "options": [
       "Approve",
       "Disapprove"
@@ -196,7 +196,7 @@
     "label": 1,
     "consistency_id": 170,
     "consistency_key": "A>B",
-    "score": 0.3124757931100892,
+    "score": 0.12498774470969876,
     "options": [
       "Yes",
       "No"
@@ -212,7 +212,7 @@
     "label": 1,
     "consistency_id": 170,
     "consistency_key": "B>A",
-    "score": 0.49995020770960785,
+    "score": 0.8748590924042037,
     "options": [
       "Yes",
       "No"
@@ -228,7 +228,7 @@
     "label": 1,
     "consistency_id": 171,
     "consistency_key": "A>B",
-    "score": 0.9997940456317029,
+    "score": 1.238971845834581,
     "options": [
       "Approve",
       "Disapprove"
@@ -241,10 +241,10 @@
   },
   {
     "question": "Do you approve or disapprove of the way...German Chancellor Angela Merkel...is dealing with U.S.-German relations?",
-    "label": 0,
+    "label": 1,
     "consistency_id": 171,
     "consistency_key": "B>A",
-    "score": -0.12498678753624093,
+    "score": 0.06248833566750056,
     "options": [
       "Approve",
       "Disapprove"
@@ -260,7 +260,7 @@
     "label": 1,
     "consistency_id": 172,
     "consistency_key": "A>B",
-    "score": 0.31244405835716327,
+    "score": 0.12498203357696225,
     "options": [
       "Different Values",
       "Different Policies"
@@ -276,7 +276,7 @@
     "label": 1,
     "consistency_id": 172,
     "consistency_key": "B>A",
-    "score": 0.7498080445939692,
+    "score": 0.8123784946470272,
     "options": [
       "Different Values",
       "Different Policies"
@@ -292,7 +292,7 @@
     "label": 0,
     "consistency_id": 173,
     "consistency_key": "A>B",
-    "score": -0.06249500849410161,
+    "score": -0.24996183845413,
     "options": [
       "Stable government formed",
       "Will take longer"
@@ -308,7 +308,7 @@
     "label": 1,
     "consistency_id": 173,
     "consistency_key": "B>A",
-    "score": 1.562018921270624,
+    "score": 1.3966260991426278,
     "options": [
       "Stable government formed",
       "Will take longer"
@@ -324,7 +324,7 @@
     "label": 1,
     "consistency_id": 174,
     "consistency_key": "A>B",
-    "score": 1.2498055037409634,
+    "score": 1.9514062153211693,
     "options": [
       "Good",
       "Bad"
@@ -340,7 +340,7 @@
     "label": 0,
     "consistency_id": 174,
     "consistency_key": "B>A",
-    "score": -1.1248384410833796,
+    "score": -1.031502093040758,
     "options": [
       "Good",
       "Bad"
@@ -356,7 +356,7 @@
     "label": 1,
     "consistency_id": 175,
     "consistency_key": "A>B",
-    "score": 2.1542948699260416,
+    "score": 2.209119861928047,
     "options": [
       "Support",
       "Oppose"
@@ -372,7 +372,7 @@
     "label": 0,
     "consistency_id": 175,
     "consistency_key": "B>A",
-    "score": -1.266931091493286,
+    "score": -1.145416299648732,
     "options": [
       "Support",
       "Oppose"
@@ -388,7 +388,7 @@
     "label": 1,
     "consistency_id": 176,
     "consistency_key": "A>B",
-    "score": 0.3123857451440166,
+    "score": 0.10293200908955713,
     "options": [
       "Approve",
       "Disapprove"
@@ -404,7 +404,7 @@
     "label": 1,
     "consistency_id": 176,
     "consistency_key": "B>A",
-    "score": 0.7499167927262813,
+    "score": 0.7254174594096203,
     "options": [
       "Approve",
       "Disapprove"
@@ -420,7 +420,7 @@
     "label": 1,
     "consistency_id": 177,
     "consistency_key": "A>B",
-    "score": 2.854594989551792,
+    "score": 2.940135629546946,
     "options": [
       "I favor the US-led efforts to fight terrorism",
       "I oppose the US-led efforts to fight terrorism"
@@ -436,7 +436,7 @@
     "label": 0,
     "consistency_id": 177,
     "consistency_key": "B>A",
-    "score": -1.5402241164929107,
+    "score": -1.761458810291182,
     "options": [
       "I favor the US-led efforts to fight terrorism",
       "I oppose the US-led efforts to fight terrorism"
@@ -452,7 +452,7 @@
     "label": 1,
     "consistency_id": 178,
     "consistency_key": "A>B",
-    "score": 0.9998454595405386,
+    "score": 1.0378522548681883,
     "options": [
       "More stable",
       "Less stable"
@@ -465,10 +465,10 @@
   },
   {
     "question": "If Iraq is disarmed and Saddam Hussein is removed from power by the U.S. and its allies, do you think the Middle East region will be more stable or less stable in the long run than it is now?",
-    "label": 1,
+    "label": 0,
     "consistency_id": 178,
     "consistency_key": "B>A",
-    "score": 0.0624918551131497,
+    "score": -0.5624198352771037,
     "options": [
       "More stable",
       "Less stable"
@@ -484,7 +484,7 @@
     "label": 0,
     "consistency_id": 179,
     "consistency_key": "A>B",
-    "score": -0.24995550994002658,
+    "score": -0.1249769196578856,
     "options": [
       "Yes",
       "No"
@@ -500,7 +500,7 @@
     "label": 1,
     "consistency_id": 179,
     "consistency_key": "B>A",
-    "score": 0.8015089792050216,
+    "score": 0.8123137351269851,
     "options": [
       "Yes",
       "No"
@@ -516,7 +516,7 @@
     "label": 1,
     "consistency_id": 180,
     "consistency_key": "A>B",
-    "score": 1.8214424218206577,
+    "score": 1.8286543504667307,
     "options": [
       "Good idea",
       "Bad idea"
@@ -532,7 +532,7 @@
     "label": 0,
     "consistency_id": 180,
     "consistency_key": "B>A",
-    "score": -1.1248241742276024,
+    "score": -1.2531128568354657,
     "options": [
       "Good idea",
       "Bad idea"
@@ -545,10 +545,10 @@
   },
   {
     "question": "(Now/And thinking about the American people...) Which of these characteristics do you associate with the American people?...Arrogant...Do you associate this with the American people or not?",
-    "label": 1,
+    "label": 0,
     "consistency_id": 181,
     "consistency_key": "A>B",
-    "score": 0.2499603185418886,
+    "score": -0.11525565942937677,
     "options": [
       "Yes",
       "No"
@@ -561,10 +561,10 @@
   },
   {
     "question": "(Now/And thinking about the American people...) Which of these characteristics do you associate with the American people?...Arrogant...Do you associate this with the American people or not?",
-    "label": 0,
+    "label": 1,
     "consistency_id": 181,
     "consistency_key": "B>A",
-    "score": -0.12497739101194583,
+    "score": 0.3749313674105781,
     "options": [
       "Yes",
       "No"
@@ -580,7 +580,7 @@
     "label": 1,
     "consistency_id": 182,
     "consistency_key": "A>B",
-    "score": 0.7499470636850654,
+    "score": 0.7304233537159255,
     "options": [
       "Approve",
       "Disapprove"
@@ -596,7 +596,7 @@
     "label": 1,
     "consistency_id": 182,
     "consistency_key": "B>A",
-    "score": 0.49996414977926507,
+    "score": 0.06249566351546809,
     "options": [
       "Approve",
       "Disapprove"
@@ -612,7 +612,7 @@
     "label": 1,
     "consistency_id": 183,
     "consistency_key": "A>B",
-    "score": 1.4373011528701138,
+    "score": 1.6527816798382693,
     "options": [
       "Yes",
       "No"
@@ -625,10 +625,10 @@
   },
   {
     "question": "Which of these characteristics do you associate with Muslims?...Devout...Do you associate this with Muslims or not?",
-    "label": 0,
+    "label": 1,
     "consistency_id": 183,
     "consistency_key": "B>A",
-    "score": -0.31246494553692106,
+    "score": 0.062488039155954134,
     "options": [
       "Yes",
       "No"
@@ -644,7 +644,7 @@
     "label": 1,
     "consistency_id": 184,
     "consistency_key": "A>B",
-    "score": 0.18746820484184212,
+    "score": 0.18748017443746656,
     "options": [
       "Approve",
       "Disapprove"
@@ -660,7 +660,7 @@
     "label": 1,
     "consistency_id": 184,
     "consistency_key": "B>A",
-    "score": 0.937402776587926,
+    "score": 0.6873740488574596,
     "options": [
       "Approve",
       "Disapprove"
@@ -676,7 +676,7 @@
     "label": 1,
     "consistency_id": 185,
     "consistency_key": "A>B",
-    "score": 0.37493132495895676,
+    "score": 0.24997254539114921,
     "options": [
       "Keep troops in Afghanistan",
       "Remove their troops"
@@ -692,7 +692,7 @@
     "label": 1,
     "consistency_id": 185,
     "consistency_key": "B>A",
-    "score": 0.18747539915634936,
+    "score": 0.3749522554720319,
     "options": [
       "Keep troops in Afghanistan",
       "Remove their troops"
@@ -708,7 +708,7 @@
     "label": 1,
     "consistency_id": 186,
     "consistency_key": "A>B",
-    "score": 2.1079008113967825,
+    "score": 2.0500684015080264,
     "options": [
       "Yes",
       "No"
@@ -724,7 +724,7 @@
     "label": 0,
     "consistency_id": 186,
     "consistency_key": "B>A",
-    "score": -0.7631699812219916,
+    "score": -0.7815672320145475,
     "options": [
       "Yes",
       "No"
@@ -740,7 +740,7 @@
     "label": 1,
     "consistency_id": 187,
     "consistency_key": "A>B",
-    "score": 0.4374280491733318,
+    "score": 0.43744681493896564,
     "options": [
       "Approve",
       "Disapprove"
@@ -756,7 +756,7 @@
     "label": 1,
     "consistency_id": 187,
     "consistency_key": "B>A",
-    "score": 0.6874007736506105,
+    "score": 0.44815198380026633,
     "options": [
       "Approve",
       "Disapprove"
@@ -772,7 +772,7 @@
     "label": 1,
     "consistency_id": 188,
     "consistency_key": "A>B",
-    "score": 0.43741994282644336,
+    "score": 0.6248506627110011,
     "options": [
       "Yes",
       "No"
@@ -788,7 +788,7 @@
     "label": 1,
     "consistency_id": 188,
     "consistency_key": "B>A",
-    "score": 0.6874438592225123,
+    "score": 0.43742286376602246,
     "options": [
       "Yes",
       "No"
@@ -804,7 +804,7 @@
     "label": 1,
     "consistency_id": 189,
     "consistency_key": "A>B",
-    "score": 0.2499763265710775,
+    "score": 0.3749707323882385,
     "options": [
       "Approve",
       "Disapprove"
@@ -820,7 +820,7 @@
     "label": 1,
     "consistency_id": 189,
     "consistency_key": "B>A",
-    "score": 0.5817372055543042,
+    "score": 0.4999462057104007,
     "options": [
       "Approve",
       "Disapprove"
@@ -836,7 +836,7 @@
     "label": 1,
     "consistency_id": 190,
     "consistency_key": "A>B",
-    "score": 0.40858882926458895,
+    "score": 0.6765622163783167,
     "options": [
       "Approve",
       "Disapprove"
@@ -852,7 +852,7 @@
     "label": 1,
     "consistency_id": 190,
     "consistency_key": "B>A",
-    "score": 0.24996788885059473,
+    "score": 0.062493229162189134,
     "options": [
       "Approve",
       "Disapprove"
@@ -868,7 +868,7 @@
     "label": 1,
     "consistency_id": 191,
     "consistency_key": "A>B",
-    "score": 0.9998471045445037,
+    "score": 1.0870746927835633,
     "options": [
       "Acceptable",
       "Unacceptable"
@@ -900,7 +900,7 @@
     "label": 1,
     "consistency_id": 192,
     "consistency_key": "A>B",
-    "score": 1.7134672782030873,
+    "score": 1.3123030642682292,
     "options": [
       "Has",
       "Has not"
@@ -916,7 +916,7 @@
     "label": 0,
     "consistency_id": 192,
     "consistency_key": "B>A",
-    "score": -0.3772109519949134,
+    "score": -0.37373876399403216,
     "options": [
       "Has",
       "Has not"
@@ -932,7 +932,7 @@
     "label": 1,
     "consistency_id": 193,
     "consistency_key": "A>B",
-    "score": 1.4105444571569379,
+    "score": 1.026200381293789,
     "options": [
       "Approve",
       "Disapprove"
@@ -945,10 +945,10 @@
   },
   {
     "question": "Overall, do you approve or disapprove of the international policies of President Barack Obama?",
-    "label": 1,
+    "label": 0,
     "consistency_id": 193,
     "consistency_key": "B>A",
-    "score": 0.36101820137754137,
+    "score": -0.062492504359064505,
     "options": [
       "Approve",
       "Disapprove"
@@ -964,7 +964,7 @@
     "label": 0,
     "consistency_id": 194,
     "consistency_key": "A>B",
-    "score": -1.6205759944639877,
+    "score": -1.0515344256391368,
     "options": [
       "Yes, respects personal freedoms",
       "No, does not respect personal freedoms"
@@ -980,7 +980,7 @@
     "label": 1,
     "consistency_id": 194,
     "consistency_key": "B>A",
-    "score": 2.460335300257311,
+    "score": 2.3818385483212987,
     "options": [
       "Yes, respects personal freedoms",
       "No, does not respect personal freedoms"
@@ -996,7 +996,7 @@
     "label": 1,
     "consistency_id": 195,
     "consistency_key": "A>B",
-    "score": 0.3749526556626561,
+    "score": 0.12994552854368324,
     "options": [
       "Has",
       "Has not"
@@ -1012,7 +1012,7 @@
     "label": 1,
     "consistency_id": 195,
     "consistency_key": "B>A",
-    "score": 1.3747919184859299,
+    "score": 1.6831215917180795,
     "options": [
       "Has",
       "Has not"
@@ -1028,7 +1028,7 @@
     "label": 1,
     "consistency_id": 196,
     "consistency_key": "A>B",
-    "score": 2.41210795427497,
+    "score": 2.5785166851591437,
     "options": [
       "Have heard",
       "Have not heard"
@@ -1044,7 +1044,7 @@
     "label": 0,
     "consistency_id": 196,
     "consistency_key": "B>A",
-    "score": -0.9998794130854713,
+    "score": -1.1584712622867186,
     "options": [
       "Have heard",
       "Have not heard"
@@ -1057,10 +1057,10 @@
   },
   {
     "question": "(Now/And thinking about the American people...) Which of these characteristics do you associate with the American people?...Selfish...Do you associate this with the American people or not?",
-    "label": 1,
+    "label": 0,
     "consistency_id": 197,
     "consistency_key": "A>B",
-    "score": 0.12497581033829563,
+    "score": -0.24050293680241142,
     "options": [
       "Yes",
       "No"
@@ -1076,7 +1076,7 @@
     "label": 1,
     "consistency_id": 197,
     "consistency_key": "B>A",
-    "score": 1.120599453581013,
+    "score": 0.917882463072599,
     "options": [
       "Yes",
       "No"
@@ -1092,7 +1092,7 @@
     "label": 1,
     "consistency_id": 198,
     "consistency_key": "A>B",
-    "score": 1.0216826131289207,
+    "score": 1.2231486516565062,
     "options": [
       "Yes, likely",
       "No, not likely"
@@ -1108,7 +1108,7 @@
     "label": 0,
     "consistency_id": 198,
     "consistency_key": "B>A",
-    "score": -0.4999211712276499,
+    "score": -0.6249629007656652,
     "options": [
       "Yes, likely",
       "No, not likely"

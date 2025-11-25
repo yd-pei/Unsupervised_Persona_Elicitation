@@ -53,3 +53,21 @@ def extract_decision_logprobs(response):
         )
         response["score"] = 0
     return response
+
+
+def extract_claim_greedy(response):
+    response = response.copy()
+    try:
+        completion = response["response"]["completion"]
+        if "true" in completion.lower():
+            response["score"] = 10.0
+        elif "false" in completion.lower():
+            response["score"] = -10.0
+        else:
+            response["score"] = 0
+    except Exception as e:
+        logger.info(
+            f"Problem {response['metadata']['uid']}: Error extracting claim greedy: {repr(e)}"
+        )
+        response["score"] = 0
+    return response

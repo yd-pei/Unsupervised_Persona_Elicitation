@@ -228,7 +228,7 @@
     "label": 0,
     "consistency_id": 169,
     "consistency_key": "A>B",
-    "score": -0.3742896649957572,
+    "score": -0.31189085314080334,
     "options": [
       "Yes",
       "No"
@@ -580,7 +580,7 @@
     "label": 1,
     "consistency_id": 180,
     "consistency_key": "A>B",
-    "score": 0.6872222021113448,
+    "score": 0.6872138177457368,
     "options": [
       "Has",
       "Has not"
@@ -692,7 +692,7 @@
     "label": 0,
     "consistency_id": 183,
     "consistency_key": "B>A",
-    "score": -6.304478633314057,
+    "score": -6.303695194741181,
     "options": [
       "Yes",
       "No"
@@ -980,7 +980,7 @@
     "label": 1,
     "consistency_id": 192,
     "consistency_key": "B>A",
-    "score": 6.351327987709956,
+    "score": 6.274331346299094,
     "options": [
       "Good",
       "Bad"
@@ -1028,7 +1028,7 @@
     "label": 1,
     "consistency_id": 194,
     "consistency_key": "A>B",
-    "score": 0.1249302418229088,
+    "score": 0.06246654223414927,
     "options": [
       "Has",
       "Has not"
@@ -1044,7 +1044,7 @@
     "label": 1,
     "consistency_id": 194,
     "consistency_key": "B>A",
-    "score": 0.4371897387563699,
+    "score": 0.4996478052924176,
     "options": [
       "Has",
       "Has not"
