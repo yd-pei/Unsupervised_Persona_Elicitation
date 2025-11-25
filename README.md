@@ -21,6 +21,24 @@ We introduce a new unsupervised algorithm for eliciting skills from pretrained l
 
 ## Setup
 
+### Run
+```commandline
+uv run ./src/experiments/ICM.py --testbed global_opinions --model meta-llama/Meta-Llama-3.1-405B --K 120 --country US
+```
+### Evaluation
+US
+```commandline
+uv run src/experiments/ICM.py --mode test --testbed global_opinions --country US --test_mode many-shot --test_data_path data/labeled_global_opinions_US.json --batch_size 4 --num_shots 63
+```
+DE
+```commandline
+uv run src/experiments/ICM.py --mode test --testbed global_opinions --country DE --test_mode gold-label --test_data_path data/labeled_global_opinions_DE.json --batch_size 4 --num_shots 42
+```
+FR
+```commandline
+uv run src/experiments/ICM.py --mode test --testbed global_opinions --country FR --test_mode many-shot --test_data_path data/labeled_global_opinions_FR.json --batch_size 4 --num_shots 54
+```
+
 ### Environment
 
 1. create conda environment: `conda env create -f env.yaml`

@@ -92,7 +92,7 @@ def load_secrets(
             secrets[key] = value
 
     openai.api_key = secrets[openai_tag]
-    os.environ['LLAMA_API_BASE'] = secrets['LLAMA_API_BASE']
+    os.environ['LLAMA_API_BASE'] = secrets['LLAMA_API_BASE'].rstrip("/")
     # replicate.api_token = secrets[replicate_tag]
     # os.environ["ANTHROPIC_API_KEY"] = secrets[anthropic_tag]
     # os.environ["MISTRAL_API_KEY"] = secrets[mistral_tag]
@@ -101,7 +101,7 @@ def load_secrets(
     if organization is not None:
         openai.organization = secrets[organization]
     if secrets.get("API_BASE") is not None:
-        openai.api_base = secrets['API_BASE']
+        openai.api_base = secrets['API_BASE'].rstrip("/")
     return secrets
 
 

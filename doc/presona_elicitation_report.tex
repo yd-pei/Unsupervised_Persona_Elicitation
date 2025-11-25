@@ -1,0 +1,89 @@
+\documentclass{article}
+
+% Recommended packages
+\usepackage[utf8]{inputenc} % allow utf-8 input
+\usepackage[T1]{fontenc}    % use 8-bit T1 fonts
+\usepackage{hyperref}       % hyperlinks
+\usepackage{url}            % simple URL typesetting
+\usepackage{booktabs}       % professional-quality tables
+\usepackage{amsfonts}       % blackboard math symbols
+\usepackage{nicefrac}       % compact symbols for 1/2, etc.
+\usepackage{microtype}      % microtypography
+\usepackage{graphicx}       % for figures
+\usepackage{amsmath}        % for math formulas
+\usepackage{algorithm}      % for algorithms
+\usepackage{algorithmic}    % for algorithms
+
+\title{Unsupervised Persona Elicitation}
+
+\author{
+  Yiding Pei \\
+}
+
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section{Results}
+
+
+\section{Experimental Setup}
+\label{sec:setup}
+Describe how the experiments were conducted.
+
+\subsection{Datasets}
+Describe the testbeds used (e.g., Global Opinions).
+\begin{itemize}
+    \item \textbf{Global Opinions}: Description of the dataset, size, and characteristics.
+    \item \textbf{Other Datasets}: If any.
+\end{itemize}
+
+\subsection{Models}
+List the LLMs used in the experiments (e.g., Meta-Llama).
+
+\subsection{Baselines}
+Describe the baseline methods compared against (e.g., Zero-shot, Few-shot with random labels, etc.).
+
+\subsection{Evaluation Metrics}
+Define the metrics used to evaluate performance (e.g., Accuracy, Consistency, Agreement).
+
+\begin{table}[h]
+    \centering
+    \caption{Main performance comparison on Global Opinions.}
+    \begin{tabular}{lccc}
+        \toprule
+        Method & Accuracy & Consistency & Metric 3 \\
+        \midrule
+        Baseline 1 & 0.00 & 0.00 & 0.00 \\
+        Baseline 2 & 0.00 & 0.00 & 0.00 \\
+        \textbf{Ours} & \textbf{0.00} & \textbf{0.00} & \textbf{0.00} \\
+        \bottomrule
+    \end{tabular}
+    \label{tab:main_results}
+\end{table}
+
+
+\section{Discussion}
+\label{sec:discussion}
+Interpret the results. Why does the unsupervised method work? What are the limitations?
+\begin{itemize}
+    \item \textbf{Analysis of Learned Personas}: Qualitative examples of elicited personas.
+    \item \textbf{Limitations}: Where does the method fail?
+\end{itemize}
+
+\section{Critique}
+\label{sec:conclusion}
+Here we discuss some limitations of the ICM method.
+
+\subsection{TruthfulQA dataset}
+
+\subsection{Robustness against adversarial prompts}
+
+\subsection{Ablation experiment}
+
+\bibliographystyle{plain}
+\bibliography{references} % Assumes a references.bib file exists
+
+\end{document}

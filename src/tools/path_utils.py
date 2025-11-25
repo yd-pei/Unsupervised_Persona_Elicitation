@@ -9,3 +9,6 @@ def get_root_directory():
 
 def get_default_results_directory():
     return get_root_directory() / "results"
+
+def get_output_directory():
+    return get_root_directory() / "output"

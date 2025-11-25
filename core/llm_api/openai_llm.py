@@ -382,8 +382,11 @@ _GPT_4_MODELS = [
     "01-ai/yi-large",
     "meta-llama/llama-2-70b-chat",
     "meta-llama/llama-3.1-8b-instruct",
+    "meta-llama/Meta-Llama-3.1-8B-Instruct", # hyperbolic API
     "meta-llama/llama-3.1-70b-instruct",
     "meta-llama/llama-3.1-405b-instruct",
+    "meta-llama/Meta-Llama-3.1-405B-Instruct", # hyperbolic API
+    "accounts/fireworks/models/llama-v3p1-405b-instruct", # fireworks API
     "qwen/qwen-2.5-7b-instruct",
     "openai/gpt-4o",
     "openchat/openchat-7b",
@@ -490,8 +493,8 @@ class OpenAIChatModel(OpenAIModel):
                 api_duration=api_duration,
                 duration=duration,
                 cost=context_cost + completion_cost,
-                logprobs=self.convert_top_logprobs(choice.logprobs)
-                if choice.logprobs is not None
+                logprobs=self.convert_top_logprobs(choice.get("logprobs"))
+                if choice.get("logprobs") is not None
                 else None,
             )
             for choice in api_response.choices
@@ -515,6 +518,8 @@ class OpenAIChatModel(OpenAIModel):
 BASE_MODELS = {
     "meta-llama/Llama-3.1-8B",
     "meta-llama/Llama-3.1-70B",
+    "meta-llama/Meta-Llama-3.1-405B", # Hyperbolic API
+    "meta-llama/Meta-Llama-3.1-8B", # Hyperbolic API
 }
 
 

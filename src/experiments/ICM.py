@@ -35,6 +35,7 @@ from src.tools.dataloaders import (
 from src.tools.path_utils import (
     get_default_results_directory,
     get_root_directory,
+    get_output_directory,
 )
 
 
@@ -55,9 +56,7 @@ def calculate_accuracy(train_data, inconsistent_pairs):
     return {
         "train_accuracy": 0
         if len(train_data) == 0
-        else np.mean(
-            [i["label"] == i["vanilla_label"] for i in train_data.values()]
-        ),
+        else np.mean([i["label"] == i["vanilla_label"] for i in train_data.values()]),
         "train_label_distribution": Counter(
             [i["vanilla_label"] for i in train_data.values()]
         ),
@@ -84,9 +83,7 @@ def fix_inconsistency(demonstrations, cur_metric, name, alpha, iter=0, K=20):
     if cur_metric["inconsistent_num"] == 0:
         return demonstrations, cur_metric
 
-    cur_pool = {
-        k: v for k, v in demonstrations.items() if v["label"] is not None
-    }
+    cur_pool = {k: v for k, v in demonstrations.items() if v["label"] is not None}
     assignment = cur_pool
 
     best_metric = cur_metric
@@ -182,9 +179,7 @@ def get_pipeline(
 
     def add_train_demonstrations(train_data):
         copy_data = deepcopy(train_data)
-        copy_data = {
-            k: v for k, v in copy_data.items() if v["label"] is not None
-        }
+        copy_data = {k: v for k, v in copy_data.items() if v["label"] is not None}
         keys = list(copy_data.keys())
         values = list(copy_data.values())
         saved_keys = [
@@ -201,11 +196,7 @@ def get_pipeline(
         values = []
         for i in copy_data.values():
             values.append(
-                {
-                    saved_key: i[saved_key]
-                    for saved_key in saved_keys
-                    if saved_key in i
-                }
+                {saved_key: i[saved_key] for saved_key in saved_keys if saved_key in i}
             )
 
         for idx, key in enumerate(keys):
@@ -217,9 +208,7 @@ def get_pipeline(
 
             demos = {
                 prev_key: prev_value
-                for j, (prev_key, prev_value) in enumerate(
-                    zip(tmp_keys, tmp_values)
-                )
+                for j, (prev_key, prev_value) in enumerate(zip(tmp_keys, tmp_values))
             }
 
             sorted_demos = {}
@@ -294,9 +283,7 @@ async def predict_assignment(model, example, demonstrations):
     return int(new_label)
 
 
-def get_temperature(
-    iteration, initial_temp, final_temp, decay_rate, schedule="exp"
-):
+def get_temperature(iteration, initial_temp, final_temp, decay_rate, schedule="exp"):
     """
     Calculate the temperature for simulated annealing.
 
@@ -323,9 +310,9 @@ def get_energy(metric, alpha):
 def get_args():
     parser = argparse.ArgumentParser()
     parser.add_argument("--alpha", type=float, default=30)
-    parser.add_argument("--seed", type=int, default=27565976)
+    parser.add_argument("--seed", type=int, default=42)
     parser.add_argument("--testbed", type=str, default="gsm8k")
-    parser.add_argument("--model", type=str, default="meta-llama/Llama-3.1-70B")
+    parser.add_argument("--model", type=str, default="meta-llama/Meta-Llama-3.1-405B")
     parser.add_argument("--batch_size", type=int, default=256)
     parser.add_argument("--num_seed", type=int, default=8)
     parser.add_argument("--K", type=int, default=3000)
@@ -335,13 +322,33 @@ def get_args():
     parser.add_argument("--final_T", type=float, default=0.01)
     parser.add_argument("--scheduler", type=str, default="log")
 
+    parser.add_argument("--mode", type=str, default="train", choices=["train", "test"])
     parser.add_argument(
-        "--mode", type=str, default="train", choices=["train", "test"]
+        "--test_mode",
+        type=str,
+        default="zero-shot",
+        choices=["zero-shot", "many-shot", "gold-label", "random"],
+    )
+    parser.add_argument(
+        "--test_data_path",
+        help="Path to the labeled data",
+        type=str,
+        default=None,
+    )
+    parser.add_argument(
+        "--random_label_ratio",
+        help="Ratio of labels that match ground truth in random mode",
+        type=float,
+        default=0.5,
+    )
+    parser.add_argument(
+        "--num_shots",
+        help="Number of demonstrations to use in many-shot mode",
+        type=int,
+        default=60,
     )
 
-    parser.add_argument(
-        "--country", type=str, default="US", choices=["US", "FR", "DE"]
-    )
+    parser.add_argument("--country", type=str, default="US", choices=["US", "FR", "DE"])
 
     args = parser.parse_args()
     return args
@@ -377,9 +384,7 @@ I think this claim is """
         for i in train:
             i["source"] = "gsm8k"
             i["consistency_key"] = i["answer"]
-            i["prompt"] = template.format(
-                question=i["question"], answer=i["choice"]
-            )
+            i["prompt"] = template.format(question=i["question"], answer=i["choice"])
 
         args.GROUP_SIZE = 4
 
@@ -393,15 +398,11 @@ I think this claim is """
         for i in train:
             i["source"] = "truthfulQA"
             i["consistency_key"] = "A" if i["label"] else "B"
-            i["prompt"] = template.format(
-                question=i["question"], answer=i["choice"]
-            )
+            i["prompt"] = template.format(question=i["question"], answer=i["choice"])
         args.GROUP_SIZE = 4
 
     elif args.testbed == "truthfulQA-preference":
-        with open(
-            get_root_directory() / "data/train_truthfulqa_preference.json"
-        ) as f:
+        with open(get_root_directory() / "data/train_truthfulqa_preference.json") as f:
             train = json.load(f)
         template = """Question: {question}
 Answer 1: {choice}
@@ -421,9 +422,7 @@ I think this claim is """
 
     elif args.testbed == "global_opinions":
         if args.country == "US":
-            with open(
-                get_root_directory() / "data/UnitedStates_train.json"
-            ) as f:
+            with open(get_root_directory() / "data/UnitedStates_train.json") as f:
                 train = json.load(f)
         elif args.country == "FR":
             with open(get_root_directory() / "data/France_train.json") as f:
@@ -437,9 +436,7 @@ I think this claim is """
 
         for i in train:
             i["source"] = "Anthropic/llm_global_opinions"
-            i["consistency_key"] = (
-                "A>B" if i["option"] == i["options"][0] else "B>A"
-            )
+            i["consistency_key"] = "A>B" if i["option"] == i["options"][0] else "B>A"
             i["prompt"] = template.format(
                 question=i["question"],
                 country="United States"
@@ -468,9 +465,7 @@ I think this claim is """
         args.batch_size // args.GROUP_SIZE,
     )
     fewshot_ids = [
-        i * args.GROUP_SIZE + j
-        for i in fewshot_ids
-        for j in range(args.GROUP_SIZE)
+        i * args.GROUP_SIZE + j for i in fewshot_ids for j in range(args.GROUP_SIZE)
     ]
 
     return train, fewshot_ids
@@ -522,9 +517,7 @@ def main(args):
 
     print(
         "init random labels = ",
-        Counter(
-            [i["label"] for i in demonstrations.values() if i["type"] == "seed"]
-        ),
+        Counter([i["label"] for i in demonstrations.values() if i["type"] == "seed"]),
         "init label acc = ",
         np.mean(
             [
@@ -541,9 +534,7 @@ def main(args):
     example_id = 0
 
     for _ in tqdm(range(args.K), desc="searching"):
-        cur_pool = {
-            k: v for k, v in demonstrations.items() if v["label"] is not None
-        }
+        cur_pool = {k: v for k, v in demonstrations.items() if v["label"] is not None}
         initial_demos = deepcopy(demonstrations)
         if iter == 0:
             pipeline = get_pipeline(
@@ -565,9 +556,7 @@ def main(args):
                 K=args.consistency_fix_K,
             )
 
-        cur_pool = {
-            k: v for k, v in demonstrations.items() if v["label"] is not None
-        }
+        cur_pool = {k: v for k, v in demonstrations.items() if v["label"] is not None}
 
         while True:  # weighted sampling
             candidates_ids = whole_ids
@@ -616,9 +605,7 @@ def main(args):
             )
 
             tmp_pool = {
-                k: v
-                for k, v in tmp_demonstrations.items()
-                if v["label"] is not None
+                k: v for k, v in tmp_demonstrations.items() if v["label"] is not None
             }
             pipeline = get_pipeline(
                 model=args.model,
@@ -661,10 +648,7 @@ def main(args):
             )
 
             accept_prob = math.exp(
-                (
-                    get_energy(metric, args.alpha)
-                    - get_energy(cur_metric, args.alpha)
-                )
+                (get_energy(metric, args.alpha) - get_energy(cur_metric, args.alpha))
                 / T
             )
             print("accept prob = ", accept_prob)
@@ -691,17 +675,234 @@ def main(args):
         print("=" * 100)
         iter += 1
 
+    save_results(demonstrations, args, name)
+
+
+def save_results(demonstrations, args, name):
+    results_dir = get_output_directory()
+    os.makedirs(results_dir, exist_ok=True)
+    save_path = results_dir / f"{name}_final.json"
+
+    output_data = []
+    for uid, demo in demonstrations.items():
+        if demo["label"] is None:
+            continue
+
+        item = {
+            "question": demo["question"],
+            "label": demo["label"],
+            "consistency_id": demo.get("consistency_id"),
+            "consistency_key": demo.get("consistency_key"),
+            "score": demo.get("score"),
+        }
+
+        if args.testbed == "alpaca":
+            item["choice"] = demo["choice"]
+            item["choice_2"] = demo["choice_2"]
+        elif args.testbed == "gsm8k":
+            item["answer"] = demo["choice"]  # In load_data, 'choice' stores the answer
+        elif args.testbed == "truthfulQA":
+            item["answer"] = demo["choice"]  # In load_data, 'choice' stores the answer
+        elif args.testbed == "truthfulQA-preference":
+            item["choice"] = demo["choice"]
+            item["choice_2"] = demo["choice_2"]
+        elif args.testbed == "global_opinions":
+            item["options"] = demo["options"]
+            item["option"] = demo["option"]
+            item["selections"] = demo["selections"]
+            # item["country"] is not directly in demo, but implied by args.country or prompt
+
+        output_data.append(item)
+
+    with open(save_path, "w") as f:
+        json.dump(output_data, f, indent=2)
+    print(f"Saved final results to {save_path}")
+
+
+async def run_test_batch(model, items, demonstrations, num_shots=0):
+    tasks = []
+    for item in items:
+        # Sample few-shot examples if needed
+        demos = []
+        if num_shots > 0 and demonstrations:
+            # Exclude current item if it happens to be in demonstrations (unlikely for cross-set but good practice)
+            candidates = [d for d in demonstrations if d.get("question") != item.get("question")]
+            if len(candidates) >= num_shots:
+                demos = random.sample(candidates, num_shots)
+            else:
+                demos = candidates
+
+        tasks.append(
+            model_api(
+                model,
+                get_judge_prompt_fewshot(
+                    item,
+                    demos,
+                    pipeline=False,
+                ),
+                logprobs=20,
+                max_tokens=1,
+                parse_fn=extract_claim_logprobs,
+            )
+        )
+    
+    responses = await asyncio.gather(*tasks)
+    return responses
+
 
 def test(args):
-    pass
+    """
+    Test the model on the test set.
+    """
+    if args.testbed == "global_opinions":
+        # 1. Load Test Data
+        if args.country == "US":
+            file_path = get_root_directory() / "data/UnitedStates_test.json"
+        elif args.country == "FR":
+            file_path = get_root_directory() / "data/France_test.json"
+        elif args.country == "DE":
+            file_path = get_root_directory() / "data/Germany_test.json"
+        
+        with open(file_path) as f:
+            data = json.load(f)
+
+        template = """Question: {question}
+Claim: The majority of people in {country} would answer: "{option}".
+I think this claim is """
+
+        country_name = (
+            "United States"
+            if args.country == "US"
+            else "France"
+            if args.country == "FR"
+            else "Germany"
+        )
+
+        formatted_data = {}
+        for idx, i in enumerate(data):
+            i["source"] = "Anthropic/llm_global_opinions"
+            i["consistency_key"] = (
+                "A>B" if i["option"] == i["options"][0] else "B>A"
+            )
+            i["prompt"] = template.format(
+                question=i["question"],
+                country=country_name,
+                option=i["option"]
+            )
+            i["uid"] = idx
+            i["vanilla_label"] = i["label"] 
+            formatted_data[idx] = i
+
+        print(f"Loaded {len(formatted_data)} test examples for {country_name}")
+
+        # 2. Load Demonstrations (for many-shot / gold-label / random)
+        demonstrations = []
+        num_shots = 0
+        
+        if args.test_mode in ["many-shot", "gold-label", "random"]:
+            if not args.test_data_path:
+                # if args.test_mode == "random" and args.test_data_path is None:
+                #      if args.country == "US":
+                #         args.test_data_path = get_root_directory() / "data/UnitedStates_train.json"
+                #      elif args.country == "FR":
+                #         args.test_data_path = get_root_directory() / "data/France_train.json"
+                #      elif args.country == "DE":
+                #         args.test_data_path = get_root_directory() / "data/Germany_train.json"
+                
+                if not args.test_data_path:
+                    raise ValueError("--test_data_path must be provided for many-shot, gold-label, or random testing")
+            
+            with open(args.test_data_path) as f:
+                demo_data = json.load(f)
+            
+            print(f"Loaded {len(demo_data)} demonstrations from {args.test_data_path}")
+            
+            correct_label_count = 0
+            total_demos = 0
+
+            for d in demo_data:
+                # Ensure necessary fields exist
+                d["source"] = "Anthropic/llm_global_opinions"
+                if "prompt" not in d: # Reconstruct prompt if missing
+                     d["prompt"] = template.format(
+                        question=d["question"],
+                        country=country_name,
+                        option=d["option"]
+                    )
+                
+                # Determine Ground Truth Label
+                is_opt0 = (d["option"] == d["options"][0])
+                win_opt0 = (d["selections"][0] > d["selections"][1])
+                win_opt1 = (d["selections"][1] > d["selections"][0])
+                if is_opt0:
+                    gt_label = 1 if win_opt0 else 0
+                else:
+                    gt_label = 1 if win_opt1 else 0
+
+                if args.test_mode == "gold-label":
+                    d["label"] = gt_label
+                elif args.test_mode == "random":
+                    if random.random() < args.random_label_ratio:
+                        d["label"] = gt_label
+                    else:
+                        d["label"] = 1 - gt_label
+                
+                # For many-shot, we use the existing d["label"]
+                
+                # Only add if label is valid (0 or 1)
+                if d.get("label") is not None:
+                    demonstrations.append(d)
+                    total_demos += 1
+                    if d["label"] == gt_label:
+                        correct_label_count += 1
+            
+            if args.test_mode == "random":
+                print(f"Random Mode: {correct_label_count}/{total_demos} ({correct_label_count/total_demos:.2%}) labels match ground truth.")
+
+            # Set number of shots
+            num_shots = args.num_shots
+            print(f"Mode: {args.test_mode}, using {num_shots} shots per query.")
+
+        # 3. Run Predictions
+        random.seed(args.seed) # Re-seed to ensure consistent few-shot sampling across modes
+        items = list(formatted_data.values())
+        all_responses = []
+        batch_size = args.batch_size
+        
+        for i in tqdm(range(0, len(items), batch_size), desc="Testing"):
+            batch_items = items[i : i + batch_size]
+            batch_responses = asyncio.run(
+                run_test_batch(args.model, batch_items, demonstrations, num_shots)
+            )
+            all_responses.extend(batch_responses)
+
+        # 4. Process Results
+        correct_count = 0
+        for i, response in enumerate(all_responses):
+            result = response[0] 
+            score = result["score"]
+            predicted_label = 1 if score > 0 else 0
+            
+            items[i]["score"] = score
+            items[i]["label"] = predicted_label
+            
+            if predicted_label == items[i]["vanilla_label"]:
+                correct_count += 1
+
+        accuracy = correct_count / len(items)
+        print(f"Test Accuracy: {accuracy:.4f}")
+
+        # 5. Save Results
+        save_results(formatted_data, args, f"{args.testbed}_{args.country}_{args.test_mode}")
+
+    else:
+        print(f"Testbed {args.testbed} not implemented for test mode yet.")
 
 
 def entry_point():
     global model_api, args
     setup_environment(logger_level="error")
-    model_api = ModelAPI(
-        anthropic_num_threads=20, openai_fraction_rate_limit=0.99
-    )
+    model_api = ModelAPI(anthropic_num_threads=20, openai_fraction_rate_limit=0.99)
     args = get_args()
     print("task: ", args.testbed)
     random.seed(args.seed)
