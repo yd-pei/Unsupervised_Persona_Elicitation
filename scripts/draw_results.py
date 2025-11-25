@@ -6,7 +6,6 @@ import os
 countries = ["US", "DE", "FR"]
 methods = ["Zero-shot", "Zero-shot (chat)", "Many-shot", "Gold-label"]
 
-# Data structure: [Zero-shot, Zero-shot (chat), Many-shot, Gold-label]
 data_p1 = {
     "US": [0.5143, 0.6393, 0.8000, 0.7714],
     "DE": [0.6230, 0.6230, 0.7429, 0.6429],
@@ -33,7 +32,7 @@ def draw_plots():
     # Plot 1: Average Accuracy Comparison
     plt.figure(figsize=(10, 6))
     bars = plt.bar(
-        methods, averages, color=["#9467bd", "#1f77b4", "#ff7f0e", "#2ca02c"], alpha=0.8
+        methods, averages, alpha=0.8
     )
 
     plt.title("Average Accuracy Comparison (US, DE, FR)", fontsize=14)
@@ -62,14 +61,12 @@ def draw_plots():
     plt.figure(figsize=(10, 6))
 
     markers = ["o", "s", "^", "D"]
-    colors = ["#1f77b4", "#ff7f0e", "#2ca02c", "#d62728"]
 
     for i, (method, values) in enumerate(data_p2.items()):
         plt.plot(
             num_examples,
             values,
             marker=markers[i],
-            color=colors[i],
             label=method,
             linewidth=2,
             markersize=8,

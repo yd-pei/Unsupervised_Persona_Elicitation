@@ -23,7 +23,7 @@ Report: [doc/presona_elicitation_report.pdf](doc/presona_elicitation_report.pdf)
 
 
 ## Setup
-
+Before running the code, you need to add your API key to the SECRETS file.
 ### Run
 ```commandline
 uv run ./src/experiments/ICM.py --testbed global_opinions --model meta-llama/Meta-Llama-3.1-405B --K 120 --country US
